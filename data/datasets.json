@@ -1,0 +1,556 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "source_paper": "arXiv:2606.01581v2",
+    "source_url": "https://arxiv.org/html/2606.01581v2",
+    "checked_at": "2026-09-09",
+    "comparison_warning": "Table VIII的#Fail.混合不同统计单位；不得求和或直接当成等价样本数比较。",
+    "scalability_definition": "综述Table VIII用Yes/Partial/No作定性判断，VIII节没有给出量化阈值或可操作正式定义。此目录仅将其按数据构建/标注可扩展性解释，不将其解释为吞吐或系统可用性。",
+    "single_rc_warning": "保留综述分类，但单根因设定、多错误标签、多个faulty agent是不同概念；需以原数据schema与评测任务为准。"
+  },
+  "datasets": [
+    {
+      "id": "who-and-when",
+      "name": "Who&When",
+      "introduction": "面向失败归因：给定完整失败日志，预测责任智能体、决定性错误步骤，并给出自然语言原因。它把“谁出了错”和“何时引入关键错误”变成可评测目标。",
+      "purpose": "责任智能体与决定性步骤定位；适合复现较早的归因基线。",
+      "project_url": "https://github.com/ag2ai/Agents_Failure_Attribution",
+      "data_url": "https://huggingface.co/datasets/Kevin355/Who_and_When",
+      "verified_statistics": [
+        {
+          "value": 184,
+          "unit": "annotated_failure_tasks"
+        },
+        {
+          "value": 127,
+          "unit": "agent_systems"
+        }
+      ],
+      "quantity_note": "184是带标注的失败任务；127是系统配置数量，两者不能互换。",
+      "annotation": "人工标注责任智能体、决定性错误步骤和解释；原论文以最早决定性错误作为主要归因目标。",
+      "scalability_note": "综述标为Partial；可生成多样系统轨迹，但精细因果标注仍需人工。此处是构建/标注可扩展性的阅读解释，非性能测试结论。",
+      "data_access": "官方HF数据页及样本预览可访问；本仓库没有批量下载或逐文件验证。",
+      "dataset_license": "未确认：HF公开数据卡未见明确数据许可证；代码仓库标示MIT，不能据此自动推定数据许可证。",
+      "differences": [],
+      "sources": [
+        "https://arxiv.org/abs/2505.00212",
+        "https://github.com/ag2ai/Agents_Failure_Attribution",
+        "https://huggingface.co/datasets/Kevin355/Who_and_When"
+      ],
+      "paper_url": "https://arxiv.org/abs/2505.00212",
+      "survey_reference_number": 12,
+      "survey_name": "Who&When",
+      "survey_statistics": {
+        "failure_count_as_reported": 184,
+        "type_count_as_reported": null,
+        "single_rc_as_reported": true,
+        "scalability_as_reported": "Partial",
+        "systems_as_reported": "127 multi-agent LLM systems"
+      },
+      "survey_taxonomy_coverage": {
+        "reasoning": "explicit",
+        "action": "explicit",
+        "memory": "limited_or_none",
+        "security": "limited_or_none",
+        "task_specification": "limited_or_none",
+        "communication": "limited_or_none",
+        "termination": "limited_or_none",
+        "orchestration": "limited_or_none"
+      },
+      "source_tables": [
+        "https://arxiv.org/html/2606.01581v2#S8.T8",
+        "https://arxiv.org/html/2606.01581v2#S8.T9"
+      ],
+      "checked_at": "2026-09-09",
+      "verification_scope": "Primary paper and project/data-page review; no full dataset download, execution, or file-by-file audit."
+    },
+    {
+      "id": "mast-data",
+      "name": "MAST-Data（综述写作MASFT）",
+      "introduction": "以多智能体执行轨迹研究失败模式，提供MAST分类体系以及LLM评审标注流程。原始分类包含系统设计、智能体间失配、任务验证三组，共14种模式。",
+      "purpose": "失败模式多标签分类、系统设计比较、自动标注研究。",
+      "project_url": "https://github.com/multi-agent-systems-failure-taxonomy/MAST",
+      "data_url": "https://huggingface.co/datasets/mcemri/MAST-Data",
+      "verified_statistics": [
+        {
+          "value": 1642,
+          "unit": "execution_traces"
+        },
+        {
+          "value": 19,
+          "unit": "human_agreement_subset_records"
+        },
+        {
+          "value": 14,
+          "unit": "failure_modes"
+        },
+        {
+          "value": 7,
+          "unit": "frameworks"
+        }
+      ],
+      "quantity_note": "1642是主数据中的执行轨迹数，不是1642个独立根因或全部必然失败的任务。HF展示1661行包含另一个19行人工一致性子集；不能按1661个独立主基准样本理解。",
+      "annotation": "主数据是LLM judge对14种模式的二元多标签，缺失项可为null；人工标注用于分类构建和一致性研究。",
+      "scalability_note": "综述标为Yes；论文提供LLM-as-a-Judge标注流程，但标签可靠性、跨系统泛化与人工校准仍需单独评估。",
+      "data_access": "官方HF数据卡、文件说明与样本预览可访问；未批量下载。",
+      "dataset_license": "HF数据卡标示CC BY 4.0；未逐项审查第三方上游任务材料的权利。",
+      "differences": [
+        "综述条目名MASFT对应原论文MAST分类体系及MAST-Data数据。",
+        "综述Single RC=✓不能理解为每条轨迹只有一个模式标签：原数据明确是多标签。",
+        "原论文附录J讨论成功与失败执行中都可能出现失败模式。"
+      ],
+      "sources": [
+        "https://arxiv.org/html/2503.13657v3",
+        "https://github.com/multi-agent-systems-failure-taxonomy/MAST",
+        "https://huggingface.co/datasets/mcemri/MAST-Data"
+      ],
+      "paper_url": "https://arxiv.org/abs/2503.13657",
+      "survey_reference_number": 117,
+      "survey_name": "MASFT",
+      "survey_statistics": {
+        "failure_count_as_reported": 1642,
+        "type_count_as_reported": 14,
+        "single_rc_as_reported": true,
+        "scalability_as_reported": "Yes",
+        "systems_as_reported": "ChatDev, MetaGPT, HyperAgent, AppWorld, AG2, Magentic-One, OpenManus"
+      },
+      "survey_taxonomy_coverage": {
+        "reasoning": "explicit",
+        "action": "limited_or_none",
+        "memory": "explicit",
+        "security": "limited_or_none",
+        "task_specification": "explicit",
+        "communication": "explicit",
+        "termination": "explicit",
+        "orchestration": "limited_or_none"
+      },
+      "source_tables": [
+        "https://arxiv.org/html/2606.01581v2#S8.T8",
+        "https://arxiv.org/html/2606.01581v2#S8.T9"
+      ],
+      "checked_at": "2026-09-09",
+      "verification_scope": "Primary paper and project/data-page review; no full dataset download, execution, or file-by-file audit."
+    },
+    {
+      "id": "trail",
+      "name": "TRAIL",
+      "introduction": "用人工标注的真实智能体轨迹评估复杂trace调试能力。标签可落在span上，并带错误类别、证据、解释与影响程度，强调推理、执行及规划问题。",
+      "purpose": "从长trace识别错误span、分类错误并解释影响。",
+      "project_url": "https://github.com/patronus-ai/trail-benchmark",
+      "data_url": "https://huggingface.co/datasets/PatronusAI/TRAIL",
+      "verified_statistics": [
+        {
+          "value": 148,
+          "unit": "traces"
+        },
+        {
+          "value": 841,
+          "unit": "errors"
+        },
+        {
+          "value": 1987,
+          "unit": "spans"
+        },
+        {
+          "value": 575,
+          "unit": "spans_with_at_least_one_error"
+        }
+      ],
+      "quantity_note": "综述841是错误实例数：它们分布于148条轨迹，而非841条失败轨迹。148条包括118条GAIA与30条SWE-bench任务轨迹。",
+      "annotation": "专家标注span ID、错误类型、证据、描述及Low/Medium/High影响程度；一个span可包含错误，一个trace可包含多个错误。",
+      "scalability_note": "综述标为No；长上下文的逐span人工判断成本较高。No并非无法新增样本，也不代表产品不支持大规模trace处理。",
+      "data_access": "数据卡公开，但文件门控要求登录、同意分享联系信息与访问条件。未接受条件、未下载数据。",
+      "dataset_license": "数据卡标示MIT，同时附门控、不得在公开无门控仓库转发，以及只用于评估相关系统等限制；使用前需读取完整条件，不应仅依据MIT标签判断可重分发。",
+      "differences": [
+        "综述Single RC=✓不是每trace只有一个错误的证明；TRAIL原始任务标注多个错误span。",
+        "综述Systems栏为“–”；官方卡实际说明OpenDeepResearch/CodeAct、GAIA/SWE-bench Lite来源。"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2505.08638",
+        "https://huggingface.co/datasets/PatronusAI/TRAIL"
+      ],
+      "paper_url": "https://arxiv.org/abs/2505.08638",
+      "survey_reference_number": 118,
+      "survey_name": "TRAIL",
+      "survey_statistics": {
+        "failure_count_as_reported": 841,
+        "type_count_as_reported": 21,
+        "single_rc_as_reported": true,
+        "scalability_as_reported": "No",
+        "systems_as_reported": "–"
+      },
+      "survey_taxonomy_coverage": {
+        "reasoning": "explicit",
+        "action": "explicit",
+        "memory": "explicit",
+        "security": "explicit",
+        "task_specification": "explicit",
+        "communication": "limited_or_none",
+        "termination": "explicit",
+        "orchestration": "explicit"
+      },
+      "source_tables": [
+        "https://arxiv.org/html/2606.01581v2#S8.T8",
+        "https://arxiv.org/html/2606.01581v2#S8.T9"
+      ],
+      "checked_at": "2026-09-09",
+      "verification_scope": "Primary paper and project/data-page review; no full dataset download, execution, or file-by-file audit."
+    },
+    {
+      "id": "agentfail",
+      "name": "AgentFail",
+      "introduction": "聚焦Dify与Coze等低代码平台编排的工作流，记录真实任务失败。最新版研究连接失败表现、根因与修复策略，适合分析节点行为和流程结构共同引起的问题。",
+      "purpose": "平台工作流的故障定位、根因分类与修复研究。",
+      "project_url": "https://github.com/Jenna-Ma/JaWs-AgentFail",
+      "data_url": "https://github.com/Jenna-Ma/JaWs-AgentFail",
+      "verified_statistics": [
+        {
+          "value": 307,
+          "unit": "failure_trajectories"
+        },
+        {
+          "value": 1387,
+          "unit": "tested_cases_before_failure_filtering"
+        }
+      ],
+      "quantity_note": "307是从1387个测试案例中得到的失败轨迹；1387不是失败数据集大小。",
+      "annotation": "多轮专家标注，包含查询、工作流配置、执行失败日志，以及失败位置、根因和修复策略。",
+      "scalability_note": "综述标为Partial；工作流和任务可以扩展，完整生命周期标签仍依赖平台环境与专家判断。",
+      "data_access": "官方仓库可访问且有coze、dify等目录，但README仍写dataset coming soon。完整307例发布状态、文件完整性和独立下载包未确认。",
+      "dataset_license": "未确认：检查的仓库页未见明确许可证。",
+      "differences": [
+        "综述引用旧标题Diagnosing Failure Root Causes in Platform-Orchestrated Agentic Systems: Dataset, Taxonomy, and Benchmark；arXiv v2标题为Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows。",
+        "仓库出现n8n目录不代表可将它加进综述Table VIII的Dify/Coze快照。"
+      ],
+      "sources": [
+        "https://arxiv.org/html/2509.23735v2",
+        "https://github.com/Jenna-Ma/JaWs-AgentFail"
+      ],
+      "paper_url": "https://arxiv.org/abs/2509.23735",
+      "survey_reference_number": 99,
+      "survey_name": "AgentFail",
+      "survey_statistics": {
+        "failure_count_as_reported": 307,
+        "type_count_as_reported": 16,
+        "single_rc_as_reported": true,
+        "scalability_as_reported": "Partial",
+        "systems_as_reported": "Dify, Coze"
+      },
+      "survey_taxonomy_coverage": {
+        "reasoning": "explicit",
+        "action": "explicit",
+        "memory": "explicit",
+        "security": "limited_or_none",
+        "task_specification": "explicit",
+        "communication": "limited_or_none",
+        "termination": "explicit",
+        "orchestration": "explicit"
+      },
+      "source_tables": [
+        "https://arxiv.org/html/2606.01581v2#S8.T8",
+        "https://arxiv.org/html/2606.01581v2#S8.T9"
+      ],
+      "checked_at": "2026-09-09",
+      "verification_scope": "Primary paper and project/data-page review; no full dataset download, execution, or file-by-file audit."
+    },
+    {
+      "id": "aegis",
+      "name": "Aegis / AEGIS",
+      "introduction": "从原本成功的多智能体轨迹中注入可控错误，生成带标签的失败数据。框架以MAST的14类模式为基础，通过上下文相关的操纵生成用于训练和评测的案例。",
+      "purpose": "可控错误生成、错误智能体/模式识别，以及诊断模型训练。",
+      "project_url": "https://github.com/kfq20/AEGIS",
+      "data_url": "https://huggingface.co/datasets/Fancylalala/AEGIS",
+      "verified_statistics": [
+        {
+          "value": 9533,
+          "unit": "trajectories"
+        },
+        {
+          "value": 24843,
+          "unit": "error_instances"
+        },
+        {
+          "value": 14,
+          "unit": "failure_modes"
+        },
+        {
+          "value": 6,
+          "unit": "frameworks"
+        }
+      ],
+      "quantity_note": "官网明确9533条轨迹、24843个错误实例。综述#Fail.=24843，不能作为轨迹或HF数据行数。",
+      "annotation": "以注入位置、目标智能体与错误模式建立可追溯标签；数据样本的faulty_agents是列表。",
+      "scalability_note": "综述标为Yes；自动错误生成有利于扩充，但生成错误的真实性与对自然失败的迁移需要另做验证。",
+      "data_access": "官方项目、HF数据卡和样本预览可访问；未批量下载或重跑生成流程。",
+      "dataset_license": "HF数据卡标示MIT；代码仓库也标示MIT。未逐项审查上游任务材料。",
+      "differences": [
+        "综述Single RC=✓不能推导为一个样本只有一个faulty agent：官方数据预览存在多个faulty_agents。",
+        "项目当前标题使用Attribution，综述书目与早期arXiv标题使用Identification；仍为同一arXiv编号。"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2509.14295",
+        "https://kfq20.github.io/AEGIS-Website/",
+        "https://github.com/kfq20/AEGIS",
+        "https://huggingface.co/datasets/Fancylalala/AEGIS"
+      ],
+      "paper_url": "https://arxiv.org/abs/2509.14295",
+      "survey_reference_number": 119,
+      "survey_name": "Aegis",
+      "survey_statistics": {
+        "failure_count_as_reported": 24843,
+        "type_count_as_reported": 14,
+        "single_rc_as_reported": true,
+        "scalability_as_reported": "Yes",
+        "systems_as_reported": "LLM Debate, MacNet, AgentVerse, Dylan, SmolAgents, Magentic-One"
+      },
+      "survey_taxonomy_coverage": {
+        "reasoning": "explicit",
+        "action": "limited_or_none",
+        "memory": "explicit",
+        "security": "limited_or_none",
+        "task_specification": "explicit",
+        "communication": "explicit",
+        "termination": "explicit",
+        "orchestration": "limited_or_none"
+      },
+      "source_tables": [
+        "https://arxiv.org/html/2606.01581v2#S8.T8",
+        "https://arxiv.org/html/2606.01581v2#S8.T9"
+      ],
+      "checked_at": "2026-09-09",
+      "verification_scope": "Primary paper and project/data-page review; no full dataset download, execution, or file-by-file audit."
+    },
+    {
+      "id": "agenterrorbench",
+      "name": "AgentErrorBench（综述写作Agent-Debug）",
+      "introduction": "针对记忆、反思、规划、动作和系统模块收集失败轨迹，支撑根因诊断及纠错反馈。AgentErrorBench是数据集；同篇论文的AgentDebug是诊断和恢复方法。",
+      "purpose": "单智能体模块化错误分析、根因定位及反馈恢复。",
+      "project_url": "https://github.com/ulab-uiuc/AgentDebug",
+      "data_url": "https://drive.google.com/drive/folders/1bQe6dQA85pktT63YnKIKJDTVaH3O3Vpu?usp=drive_link",
+      "verified_statistics": [
+        {
+          "value": 200,
+          "unit": "failure_trajectories"
+        },
+        {
+          "value": 100,
+          "unit": "ALFWorld_trajectories"
+        },
+        {
+          "value": 50,
+          "unit": "GAIA_trajectories"
+        },
+        {
+          "value": 50,
+          "unit": "WebShop_trajectories"
+        },
+        {
+          "value": 17,
+          "unit": "error_types"
+        }
+      ],
+      "quantity_note": "官方仓库给出的ALFWorld 100、GAIA 50、WebShop 50合计200条轨迹。",
+      "annotation": "按AgentErrorTaxonomy分析失败；具体数据字段和标签完整性未逐文件检查。",
+      "scalability_note": "综述标为No；现有发布是经系统标注的有限轨迹集，不等价于对应环境不能生成更多任务。",
+      "data_access": "官方仓库提供Google Drive下载入口；页面能打开但本次文本工具未取得文件列表，实际下载和文件完整性未核验。",
+      "dataset_license": "代码项目标示MIT；Drive数据是否适用同一许可证未单独确认。",
+      "differences": [
+        "综述Table VIII的Agent-Debug和Table IX的AgentDebug均指向这篇论文；原论文把AgentDebug称为方法，数据集正式名称是AgentErrorBench。",
+        "综述Systems栏ALFWorld、WebShop、GAIA是任务环境/基准名，不应统一理解为agent框架。"
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2509.25370",
+        "https://github.com/ulab-uiuc/AgentDebug"
+      ],
+      "paper_url": "https://arxiv.org/abs/2509.25370",
+      "survey_reference_number": 102,
+      "survey_name": "Agent-Debug",
+      "survey_statistics": {
+        "failure_count_as_reported": 200,
+        "type_count_as_reported": 17,
+        "single_rc_as_reported": true,
+        "scalability_as_reported": "No",
+        "systems_as_reported": "ALFWorld, WebShop, GAIA"
+      },
+      "survey_taxonomy_coverage": {
+        "reasoning": "explicit",
+        "action": "explicit",
+        "memory": "explicit",
+        "security": "explicit",
+        "task_specification": "limited_or_none",
+        "communication": "limited_or_none",
+        "termination": "limited_or_none",
+        "orchestration": "limited_or_none"
+      },
+      "source_tables": [
+        "https://arxiv.org/html/2606.01581v2#S8.T8",
+        "https://arxiv.org/html/2606.01581v2#S8.T9"
+      ],
+      "checked_at": "2026-09-09",
+      "verification_scope": "Primary paper and project/data-page review; no full dataset download, execution, or file-by-file audit."
+    },
+    {
+      "id": "mp-bench",
+      "name": "MP-Bench",
+      "introduction": "把失败归因视为可能存在多个合理解释的任务。多个专家独立标记诱发失败的步骤、原因和理想动作，按共识强度形成排序，同时评价归因解释。",
+      "purpose": "多视角归因、步骤排序及解释质量评测。",
+      "project_url": "https://github.com/yeonjun-in/MP-Bench",
+      "data_url": "https://github.com/adobe-research/multi-agent-eval-bench/tree/main/MP-Bench",
+      "verified_statistics": [
+        {
+          "value": 289,
+          "unit": "paper_execution_logs"
+        },
+        {
+          "value": 169,
+          "unit": "paper_handcrafted_executions"
+        },
+        {
+          "value": 120,
+          "unit": "paper_automatic_executions"
+        },
+        {
+          "value": 121,
+          "unit": "system_configurations"
+        }
+      ],
+      "quantity_note": "论文为169条手工系统执行+120条自动系统执行=289条；三个专家的标注不能重复算作三份独立轨迹。",
+      "annotation": "三位专家独立逐步标注；依据标注共识形成ranking，并保留原因与理想动作。",
+      "scalability_note": "综述标为No；原论文强调三专家高质量标注的成本。多视角是评测设定，不等于已验证多个独立因果根源同时存在。",
+      "data_access": "论文链接到作者代码仓库；该仓库再链接Adobe Research的MP-Bench目录作为原始数据入口。未下载重建或验证所有log_source可解析。",
+      "dataset_license": "数据目录及作者代码页的许可证未确认；不能自动沿用别的Adobe项目的许可。",
+      "differences": [
+        "当前作者仓库README写manual=169、automatic=126，合计295，与论文289不一致。尚未确定是脚本预期、版本差异或文档错误；本仓库以论文289作快照并保留冲突。"
+      ],
+      "sources": [
+        "https://arxiv.org/html/2603.25001v1",
+        "https://github.com/yeonjun-in/MP-Bench",
+        "https://github.com/adobe-research/multi-agent-eval-bench/tree/main/MP-Bench"
+      ],
+      "paper_url": "https://arxiv.org/abs/2603.25001",
+      "survey_reference_number": 120,
+      "survey_name": "MP-Bench",
+      "survey_statistics": {
+        "failure_count_as_reported": 289,
+        "type_count_as_reported": null,
+        "single_rc_as_reported": false,
+        "scalability_as_reported": "No",
+        "systems_as_reported": "MAgentic-One, CaptainAgent"
+      },
+      "survey_taxonomy_coverage": {
+        "reasoning": "explicit",
+        "action": "explicit",
+        "memory": "limited_or_none",
+        "security": "limited_or_none",
+        "task_specification": "limited_or_none",
+        "communication": "limited_or_none",
+        "termination": "limited_or_none",
+        "orchestration": "limited_or_none"
+      },
+      "source_tables": [
+        "https://arxiv.org/html/2606.01581v2#S8.T8",
+        "https://arxiv.org/html/2606.01581v2#S8.T9"
+      ],
+      "checked_at": "2026-09-09",
+      "verification_scope": "Primary paper and project/data-page review; no full dataset download, execution, or file-by-file audit."
+    },
+    {
+      "id": "longrca-bench",
+      "name": "LongRCA Bench",
+      "introduction": "关注长流程失败，分别标注责任角色和最早决定性根因步骤。数据来自五类任务中的自然失败，强调根因可能出现在最终失败之前很久，责任角色也不能简单等同于错误步骤的发言者。",
+      "purpose": "长轨迹根因检索、责任角色预测与精确步骤定位。",
+      "project_url": "https://longrca-bench.github.io/",
+      "data_url": "https://huggingface.co/datasets/CLoud5-real/longrca-bench",
+      "verified_statistics": [
+        {
+          "value": 1140,
+          "unit": "failed_trajectories"
+        },
+        {
+          "value": 178137,
+          "unit": "recorded_steps"
+        },
+        {
+          "value": 145,
+          "unit": "median_steps_per_trajectory"
+        },
+        {
+          "value": 200,
+          "unit": "mini_subset_trajectories"
+        }
+      ],
+      "quantity_note": "全量1140条；LongRCA-Mini的200条是从全量抽取的子集。HF显示1340行不能理解成1340条不同轨迹。",
+      "annotation": "人工独立标注责任角色与最早决定性步骤，另有解释；两项分别计分。",
+      "scalability_note": "综述标为No；长历史的人工因果审阅困难。现有1,140条不是该任务领域可扩展性的上限。",
+      "data_access": "官方项目页与HF数据卡/预览可访问，提供JSON和Parquet说明；未批量下载或运行评测。",
+      "dataset_license": "未确认：检查的HF数据卡未见明确数据许可证。论文的arXiv许可不能替代数据许可。",
+      "differences": [
+        "上游任务为SWE-bench Pro、Terminal-Bench 2、TravelPlanner、VitaBench与WebArena Verified；综述Systems概括为AutoGen-based and custom multi-agents。",
+        "同篇论文的RCTA是诊断方法，不能单列为新数据集。"
+      ],
+      "sources": [
+        "https://arxiv.org/html/2608.15242v3",
+        "https://longrca-bench.github.io/",
+        "https://huggingface.co/datasets/CLoud5-real/longrca-bench"
+      ],
+      "paper_url": "https://arxiv.org/abs/2608.15242",
+      "survey_reference_number": 121,
+      "survey_name": "LongRCA Bench",
+      "survey_statistics": {
+        "failure_count_as_reported": 1140,
+        "type_count_as_reported": null,
+        "single_rc_as_reported": true,
+        "scalability_as_reported": "No",
+        "systems_as_reported": "AutoGen-based and custom multi-agents"
+      },
+      "survey_taxonomy_coverage": {
+        "reasoning": "explicit",
+        "action": "explicit",
+        "memory": "limited_or_none",
+        "security": "limited_or_none",
+        "task_specification": "limited_or_none",
+        "communication": "limited_or_none",
+        "termination": "limited_or_none",
+        "orchestration": "explicit"
+      },
+      "source_tables": [
+        "https://arxiv.org/html/2606.01581v2#S8.T8",
+        "https://arxiv.org/html/2606.01581v2#S8.T9"
+      ],
+      "checked_at": "2026-09-09",
+      "verification_scope": "Primary paper and project/data-page review; no full dataset download, execution, or file-by-file audit."
+    }
+  ],
+  "upstream_benchmarks": [
+    {
+      "name": "GAIA",
+      "survey_reference_number": 122,
+      "source_section": "VIII",
+      "paper_url": "https://arxiv.org/abs/2311.12983",
+      "project_or_data_url": "https://huggingface.co/datasets/gaia-benchmark/GAIA",
+      "introduction": "通用AI助手任务基准，结合推理、检索及工具使用；在综述中作为生成失败轨迹的任务来源。",
+      "checked_at": "2026-09-09",
+      "scope_note": "上游任务基准/环境，不是Table VIII中额外的AgentOps归因数据集；未安装环境或下载数据，许可/访问条件需从入口确认。"
+    },
+    {
+      "name": "ALFWorld",
+      "survey_reference_number": 123,
+      "source_section": "VIII",
+      "paper_url": "https://arxiv.org/abs/2010.03768",
+      "project_or_data_url": "https://github.com/alfworld/alfworld",
+      "introduction": "连接文本与具身环境的交互任务环境，可生成需要多步计划与动作执行的轨迹。",
+      "checked_at": "2026-09-09",
+      "scope_note": "上游任务基准/环境，不是Table VIII中额外的AgentOps归因数据集；未安装环境或下载数据，许可/访问条件需从入口确认。"
+    },
+    {
+      "name": "WebShop",
+      "survey_reference_number": 124,
+      "source_section": "VIII",
+      "paper_url": "https://arxiv.org/abs/2207.01206",
+      "project_or_data_url": "https://github.com/princeton-nlp/WebShop",
+      "introduction": "网页购物任务环境，要求理解用户约束并完成搜索、选择与交互。",
+      "checked_at": "2026-09-09",
+      "scope_note": "上游任务基准/环境，不是Table VIII中额外的AgentOps归因数据集；未安装环境或下载数据，许可/访问条件需从入口确认。"
+    }
+  ]
+}

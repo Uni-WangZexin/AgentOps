@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "For the underlying research, please cite the original paper below. This repository is a classified collection of papers, datasets, algorithms and tools."
+title: "AgentOps: Papers, Datasets & Algorithms"
+url: "https://github.com/Uni-WangZexin/AgentOps"
+type: dataset
+authors:
+  - name: "AgentOps Survey Guide contributors"
+version: "2.0.0"
+date-released: "2026-09-10"
+license: CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "Agent System Operations: Categorization, Challenges, and Future Directions"
+  authors:
+    - family-names: Wang
+      given-names: Zexin
+    - family-names: Pei
+      given-names: Changhua
+    - family-names: Liu
+      given-names: Yuanhao
+    - family-names: Li
+      given-names: Jingjing
+    - family-names: Huo
+      given-names: Yintong
+    - family-names: Zhou
+      given-names: Quan
+    - family-names: Si
+      given-names: Haotian
+    - family-names: Cui
+      given-names: Hang
+    - family-names: Liu
+      given-names: Zihan
+    - family-names: Li
+      given-names: Jianhui
+    - family-names: Xie
+      given-names: Gaogang
+    - family-names: Sun
+      given-names: Fei
+    - family-names: Pei
+      given-names: Dan
+    - family-names: Lo
+      given-names: David
+  year: 2026
+  doi: 10.48550/arXiv.2606.01581
+  url: "https://arxiv.org/abs/2606.01581v2"
+  notes: "arXiv v2, revised 2026-09-06. Authors follow the v2 PDF; arXiv abstract metadata omits Jianhui Li as of 2026-09-09."

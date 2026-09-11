@@ -1,0 +1,342 @@
+{
+  "baseline": "arXiv:2606.01581v2",
+  "updated": "2026-09-10",
+  "source_check_date": "2026-09-09",
+  "paper_count": 98,
+  "scholarly_reference_count": 99,
+  "bibliography_entry_count": 125,
+  "duplicate_merges": [
+    {
+      "canonical": 16,
+      "aliases": [
+        104
+      ],
+      "reason": "Same CoT paper and same direct paper URL"
+    }
+  ],
+  "groups": [
+    {
+      "id": "reasoning",
+      "title": "推理异常 · Reasoning",
+      "references": [
+        1,
+        9,
+        15,
+        16,
+        17,
+        18,
+        19,
+        72,
+        73,
+        76,
+        77,
+        78,
+        79,
+        90,
+        110
+      ],
+      "source_section": "S2.SS2.SSS1"
+    },
+    {
+      "id": "action",
+      "title": "动作异常 · Action",
+      "references": [
+        4,
+        20,
+        21,
+        80,
+        92,
+        94,
+        103,
+        106
+      ],
+      "source_section": "S2.SS2.SSS2"
+    },
+    {
+      "id": "memory",
+      "title": "记忆异常 · Memory",
+      "references": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        81,
+        82,
+        83,
+        112
+      ],
+      "source_section": "S2.SS2.SSS3"
+    },
+    {
+      "id": "security",
+      "title": "安全异常 · Security",
+      "references": [
+        10,
+        30,
+        32,
+        33,
+        71,
+        84,
+        108
+      ],
+      "source_section": "S2.SS2.SSS4"
+    },
+    {
+      "id": "task-specification",
+      "title": "任务规范异常 · Task Specification",
+      "references": [
+        31,
+        34,
+        36,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "source_section": "S2.SS3.SSS1"
+    },
+    {
+      "id": "orchestration",
+      "title": "编排异常 · Orchestration",
+      "references": [
+        14,
+        37,
+        38,
+        39,
+        91,
+        93,
+        105
+      ],
+      "source_section": "S2.SS3.SSS2"
+    },
+    {
+      "id": "communication",
+      "title": "通信异常 · Communication",
+      "references": [
+        41,
+        95
+      ],
+      "source_section": "S2.SS3.SSS3"
+    },
+    {
+      "id": "termination",
+      "title": "终止异常 · Termination",
+      "references": [
+        43,
+        44,
+        45
+      ],
+      "source_section": "S2.SS3.SSS4"
+    },
+    {
+      "id": "monitoring",
+      "title": "监控与可观测性 · Monitoring",
+      "references": [
+        51,
+        52,
+        53,
+        74,
+        75
+      ],
+      "source_section": "S4"
+    },
+    {
+      "id": "root-cause",
+      "title": "根因定位与失败归因 · Root Cause Localization",
+      "references": [
+        7,
+        12,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102
+      ],
+      "source_section": "S6"
+    },
+    {
+      "id": "resolution",
+      "title": "纠错与恢复 · Resolution",
+      "references": [
+        107,
+        109,
+        113,
+        114,
+        115,
+        116
+      ],
+      "source_section": "S7"
+    },
+    {
+      "id": "benchmarks",
+      "title": "数据与评测 · Datasets & Benchmarks",
+      "references": [
+        13,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
+      "source_section": "S8"
+    },
+    {
+      "id": "background",
+      "title": "背景与应用 · Background",
+      "references": [
+        3,
+        5,
+        6,
+        8,
+        11,
+        46,
+        47,
+        48
+      ],
+      "source_section": "S1"
+    }
+  ],
+  "related_categories": {
+    "14": [
+      "reasoning",
+      "resolution"
+    ],
+    "16": [
+      "resolution"
+    ],
+    "19": [
+      "reasoning"
+    ],
+    "21": [
+      "security"
+    ],
+    "25": [
+      "benchmarks"
+    ],
+    "27": [
+      "reasoning"
+    ],
+    "28": [
+      "benchmarks"
+    ],
+    "30": [
+      "benchmarks"
+    ],
+    "31": [
+      "termination"
+    ],
+    "33": [
+      "task-specification",
+      "root-cause"
+    ],
+    "38": [
+      "resolution"
+    ],
+    "43": [
+      "orchestration"
+    ],
+    "72": [
+      "monitoring"
+    ],
+    "73": [
+      "monitoring"
+    ],
+    "74": [
+      "resolution"
+    ],
+    "78": [
+      "resolution"
+    ],
+    "85": [
+      "action"
+    ],
+    "86": [
+      "benchmarks"
+    ],
+    "87": [
+      "benchmarks"
+    ],
+    "88": [
+      "resolution"
+    ],
+    "89": [
+      "reasoning"
+    ],
+    "90": [
+      "task-specification"
+    ],
+    "92": [
+      "orchestration",
+      "benchmarks"
+    ],
+    "93": [
+      "resolution",
+      "memory"
+    ],
+    "94": [
+      "orchestration"
+    ],
+    "96": [
+      "root-cause"
+    ],
+    "99": [
+      "benchmarks"
+    ],
+    "102": [
+      "benchmarks",
+      "resolution"
+    ],
+    "103": [
+      "resolution"
+    ],
+    "105": [
+      "resolution"
+    ],
+    "106": [
+      "resolution"
+    ],
+    "110": [
+      "resolution"
+    ],
+    "112": [
+      "resolution"
+    ],
+    "12": [
+      "termination",
+      "benchmarks"
+    ],
+    "117": [
+      "task-specification",
+      "communication",
+      "termination"
+    ],
+    "118": [
+      "root-cause"
+    ],
+    "119": [
+      "root-cause"
+    ],
+    "120": [
+      "root-cause"
+    ],
+    "121": [
+      "root-cause"
+    ]
+  },
+  "paper_inclusion_types": [
+    "conference_paper",
+    "doctoral_thesis",
+    "journal_article",
+    "preprint",
+    "research_paper_unspecified"
+  ]
+}

@@ -1,0 +1,596 @@
+{
+  "detection_and_mitigation": [
+    {
+      "name": "SAPLMA",
+      "reference_number": 73,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Reasoning Anomalies",
+      "category_as_survey": "White-box",
+      "input_as_survey": "LLM Parameters",
+      "output_as_survey": "Anomaly Probability",
+      "detection_as_survey": true,
+      "mitigation_as_survey": false,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "OPERA",
+      "reference_number": 72,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Reasoning Anomalies",
+      "category_as_survey": "White-box",
+      "input_as_survey": "Attention Map",
+      "output_as_survey": "Penalty-regenerated Response",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "Honesty",
+      "reference_number": 19,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Reasoning Anomalies",
+      "category_as_survey": "White-box",
+      "input_as_survey": "LLM Parameters (Finetuning)",
+      "output_as_survey": "Revised Response",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "LURE",
+      "reference_number": 76,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Reasoning Anomalies",
+      "category_as_survey": "Grey-box",
+      "input_as_survey": "Token Logits, Revisor Model",
+      "output_as_survey": "Revised Response",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "Conformal",
+      "reference_number": 77,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Reasoning Anomalies",
+      "category_as_survey": "Grey-box",
+      "input_as_survey": "Token Logits",
+      "output_as_survey": "High-quality Response",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "Debate",
+      "reference_number": 78,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Reasoning Anomalies",
+      "category_as_survey": "Black-box",
+      "input_as_survey": "Multiple Agents",
+      "output_as_survey": "Debated Response",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "CoK",
+      "reference_number": 79,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Reasoning Anomalies",
+      "category_as_survey": "Black-box",
+      "input_as_survey": "Multiple Data Sources",
+      "output_as_survey": "High-quality Response",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "AI-Infra-Guard",
+      "reference_number": 22,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Action Anomalies",
+      "category_as_survey": "MCP",
+      "input_as_survey": "AI Component",
+      "output_as_survey": "MCP Risks",
+      "detection_as_survey": true,
+      "mitigation_as_survey": false,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "MCP Guardian",
+      "reference_number": 80,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Action Anomalies",
+      "category_as_survey": "MCP",
+      "input_as_survey": "AI Component",
+      "output_as_survey": "MCP Risks",
+      "detection_as_survey": true,
+      "mitigation_as_survey": false,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "PI",
+      "reference_number": 81,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Memory Anomalies",
+      "category_as_survey": "Short-term Memory",
+      "input_as_survey": "Long Context",
+      "output_as_survey": "Response",
+      "detection_as_survey": false,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "CoA",
+      "reference_number": 82,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Memory Anomalies",
+      "category_as_survey": "Short-term Memory",
+      "input_as_survey": "Long Context",
+      "output_as_survey": "Response",
+      "detection_as_survey": false,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "ReDeep",
+      "reference_number": 27,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Memory Anomalies",
+      "category_as_survey": "Long-term Memory / RAG",
+      "input_as_survey": "Attention, LLM Parameters",
+      "output_as_survey": "Hallucination Results",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "LRP4RAG",
+      "reference_number": 83,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Memory Anomalies",
+      "category_as_survey": "Long-term Memory / RAG",
+      "input_as_survey": "Token Logits",
+      "output_as_survey": "Anomaly Probability",
+      "detection_as_survey": true,
+      "mitigation_as_survey": false,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "GUARDIAN",
+      "reference_number": 84,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Security Anomalies",
+      "category_as_survey": "Graph-based",
+      "input_as_survey": "Agent Graph",
+      "output_as_survey": "Anomalous Position",
+      "detection_as_survey": true,
+      "mitigation_as_survey": false,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "SentinelAgent",
+      "reference_number": 33,
+      "level_as_survey": "Intra-Agent",
+      "anomaly_type_as_survey": "Security Anomalies",
+      "category_as_survey": "Graph-based",
+      "input_as_survey": "Agent Graph",
+      "output_as_survey": "Anomalous Position",
+      "detection_as_survey": true,
+      "mitigation_as_survey": false,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "SpecValidator",
+      "reference_number": 85,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Task Specification Anomalies",
+      "category_as_survey": "Classifier-based",
+      "input_as_survey": "Task Description",
+      "output_as_survey": "Defect Type / Probability",
+      "detection_as_survey": true,
+      "mitigation_as_survey": false,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "Ambig-SWE",
+      "reference_number": 86,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Task Specification Anomalies",
+      "category_as_survey": "Classifier-based",
+      "input_as_survey": "Task Instruction",
+      "output_as_survey": "Underspecification Label / Clarification Questions",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "CLAMBER",
+      "reference_number": 87,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Task Specification Anomalies",
+      "category_as_survey": "Classifier-based",
+      "input_as_survey": "User Query",
+      "output_as_survey": "Ambiguity Label / Clarifying Question",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "Ask-or-Assume",
+      "reference_number": 88,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Task Specification Anomalies",
+      "category_as_survey": "Uncertainty-based",
+      "input_as_survey": "Task Instruction, Agent State",
+      "output_as_survey": "Ask-or-Execute Decision",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "Semantic Entropy",
+      "reference_number": 89,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Task Specification Anomalies",
+      "category_as_survey": "Uncertainty-based",
+      "input_as_survey": "Sampled Interpretations",
+      "output_as_survey": "Semantic Uncertainty Score",
+      "detection_as_survey": true,
+      "mitigation_as_survey": false,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "SelfCheckGPT",
+      "reference_number": 90,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Task Specification Anomalies",
+      "category_as_survey": "Uncertainty-based",
+      "input_as_survey": "Sampled Responses",
+      "output_as_survey": "Consistency Score",
+      "detection_as_survey": true,
+      "mitigation_as_survey": false,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "Introspective",
+      "reference_number": 91,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Orchestration Anomalies",
+      "category_as_survey": "Single-step",
+      "input_as_survey": "Token Logits",
+      "output_as_survey": "High-quality Plan",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "API-bank",
+      "reference_number": 92,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Orchestration Anomalies",
+      "category_as_survey": "Single-step",
+      "input_as_survey": "LLM Parameters (Finetuning)",
+      "output_as_survey": "High-quality Plan",
+      "detection_as_survey": false,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "ReAct",
+      "reference_number": 14,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Orchestration Anomalies",
+      "category_as_survey": "Single-step",
+      "input_as_survey": "Prompt",
+      "output_as_survey": "High-quality Plan",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "ToolLLM",
+      "reference_number": 4,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Orchestration Anomalies",
+      "category_as_survey": "Multi-step",
+      "input_as_survey": "LLM Parameters (Finetuning)",
+      "output_as_survey": "High-quality Plan",
+      "detection_as_survey": false,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "Reflexion",
+      "reference_number": 93,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Orchestration Anomalies",
+      "category_as_survey": "Multi-step",
+      "input_as_survey": "External Feedback",
+      "output_as_survey": "High-quality Plan",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "CodeAct",
+      "reference_number": 94,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Orchestration Anomalies",
+      "category_as_survey": "Multi-step",
+      "input_as_survey": "Tool Description",
+      "output_as_survey": "Code",
+      "detection_as_survey": false,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "AgentPrune",
+      "reference_number": 41,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Communication Anomalies",
+      "category_as_survey": "Redundancy",
+      "input_as_survey": "Agent Graph",
+      "output_as_survey": "Optimized Agent Graph",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    },
+    {
+      "name": "G-Designer",
+      "reference_number": 95,
+      "level_as_survey": "Inter-Agent",
+      "anomaly_type_as_survey": "Communication Anomalies",
+      "category_as_survey": "Redundancy",
+      "input_as_survey": "Agent Graph",
+      "output_as_survey": "Optimized Agent Graph",
+      "detection_as_survey": true,
+      "mitigation_as_survey": true,
+      "source": "https://arxiv.org/html/2606.01581v2#S5.T5",
+      "note_zh": "输入/输出和能力标记是综述Table V的分类，不是本仓库复现实测或全部实现依赖。"
+    }
+  ],
+  "root_cause_localization": [
+    {
+      "name": "FAMAS",
+      "reference_numbers": [
+        96
+      ],
+      "category": "trajectory-spectrum",
+      "input": "成败轨迹 / state–action–agent 元组",
+      "output": "可疑智能体与动作排序",
+      "summary_zh": "结合失败频率、重复程度和动作中心性计算可疑度。",
+      "source": "https://arxiv.org/html/2606.01581v2#S6"
+    },
+    {
+      "name": "GraphTracer",
+      "reference_numbers": [
+        97
+      ],
+      "category": "structured-trace",
+      "input": "信息依赖图",
+      "output": "上游错误节点",
+      "summary_zh": "沿信息流反向追踪下游错误的来源。",
+      "source": "https://arxiv.org/html/2606.01581v2#S6"
+    },
+    {
+      "name": "AgenTracer",
+      "reference_numbers": [
+        98
+      ],
+      "category": "structured-trace",
+      "input": "故障注入与反事实回放轨迹",
+      "output": "责任智能体与步骤",
+      "summary_zh": "用可控生成的失败轨迹训练归因模型。",
+      "source": "https://arxiv.org/html/2606.01581v2#S6"
+    },
+    {
+      "name": "Causal attribution",
+      "reference_numbers": [
+        100
+      ],
+      "category": "structured-trace",
+      "input": "结构化因果图",
+      "output": "责任主体与关键动作",
+      "summary_zh": "以因果结构和反事实推断进行归因。",
+      "source": "https://arxiv.org/html/2606.01581v2#S6"
+    },
+    {
+      "name": "SentinelAgent",
+      "reference_numbers": [
+        33
+      ],
+      "category": "structured-trace",
+      "input": "智能体交互图与执行动态",
+      "output": "异常协作与行为模式",
+      "summary_zh": "以图结构与分层监测支持异常位置分析。",
+      "source": "https://arxiv.org/html/2606.01581v2#S6"
+    },
+    {
+      "name": "StepFinder",
+      "reference_numbers": [
+        101
+      ],
+      "category": "structured-trace",
+      "input": "轨迹的时序语义特征",
+      "output": "根因步骤",
+      "summary_zh": "语义特征与时序建模结合，处理跨步骤依赖。",
+      "source": "https://arxiv.org/html/2606.01581v2#S6"
+    },
+    {
+      "name": "Who&When",
+      "reference_numbers": [
+        12
+      ],
+      "category": "llm-attribution",
+      "input": "失败日志",
+      "output": "责任智能体、决定性步骤",
+      "summary_zh": "All-at-once、Step-by-step、Binary Search三种归因方式。",
+      "source": "https://arxiv.org/html/2606.01581v2#S6"
+    },
+    {
+      "name": "AgentFail",
+      "reference_numbers": [
+        99
+      ],
+      "category": "llm-attribution",
+      "input": "工作流日志与故障分类知识",
+      "output": "故障位置、根因",
+      "summary_zh": "用细粒度故障分类引导语义归因。",
+      "source": "https://arxiv.org/html/2606.01581v2#S6"
+    },
+    {
+      "name": "AgentDebug",
+      "reference_numbers": [
+        102
+      ],
+      "category": "llm-attribution",
+      "input": "执行轨迹与错误分类",
+      "output": "诊断反馈与修复指导",
+      "summary_zh": "将分类感知诊断与轨迹重规划衔接。",
+      "source": "https://arxiv.org/html/2606.01581v2#S6"
+    }
+  ],
+  "resolution_mechanisms": [
+    {
+      "id": "task-respecification",
+      "name_zh": "任务重述与细化",
+      "phase": "pre-execution",
+      "reference_numbers": [
+        16,
+        14,
+        105
+      ],
+      "summary_zh": "补充目标、约束、成功判据与子任务。",
+      "source": "https://arxiv.org/html/2606.01581v2#S7"
+    },
+    {
+      "id": "plan-verification",
+      "name_zh": "计划验证",
+      "phase": "pre-execution",
+      "reference_numbers": [
+        38
+      ],
+      "summary_zh": "执行前验证计划的可行性、依赖和约束。",
+      "source": "https://arxiv.org/html/2606.01581v2#S7"
+    },
+    {
+      "id": "action-restriction",
+      "name_zh": "动作空间约束",
+      "phase": "pre-execution",
+      "reference_numbers": [
+        106,
+        103
+      ],
+      "summary_zh": "限制工具、接口、参数与执行环境。",
+      "source": "https://arxiv.org/html/2606.01581v2#S7"
+    },
+    {
+      "id": "observation-replanning",
+      "name_zh": "观察驱动重规划",
+      "phase": "in-execution",
+      "reference_numbers": [
+        14
+      ],
+      "summary_zh": "利用新观察调整后续行动。",
+      "source": "https://arxiv.org/html/2606.01581v2#S7"
+    },
+    {
+      "id": "self-correction",
+      "name_zh": "自我修正",
+      "phase": "in-execution",
+      "reference_numbers": [
+        107,
+        93
+      ],
+      "summary_zh": "通过批评、反馈、反思改进中间结果。",
+      "source": "https://arxiv.org/html/2606.01581v2#S7"
+    },
+    {
+      "id": "runtime-enforcement",
+      "name_zh": "运行时约束与修复",
+      "phase": "in-execution",
+      "reference_numbers": [
+        108,
+        109
+      ],
+      "summary_zh": "拦截不合法动作，修复格式和接口集成错误。",
+      "source": "https://arxiv.org/html/2606.01581v2#S7"
+    },
+    {
+      "id": "redundant-selection",
+      "name_zh": "冗余执行与选择",
+      "phase": "in-execution",
+      "reference_numbers": [
+        110,
+        78,
+        38
+      ],
+      "summary_zh": "生成多个候选，通过一致性、投票或验证器选择。",
+      "source": "https://arxiv.org/html/2606.01581v2#S7"
+    },
+    {
+      "id": "rollback-reexecution",
+      "name_zh": "回滚与重执行",
+      "phase": "post-execution",
+      "reference_numbers": [
+        74,
+        111
+      ],
+      "summary_zh": "恢复到已保存状态，从修正点继续执行。",
+      "source": "https://arxiv.org/html/2606.01581v2#S7"
+    },
+    {
+      "id": "memory-skill-update",
+      "name_zh": "记忆与技能更新",
+      "phase": "post-execution",
+      "reference_numbers": [
+        93,
+        112
+      ],
+      "summary_zh": "保存经验、反思与可复用技能。",
+      "source": "https://arxiv.org/html/2606.01581v2#S7"
+    },
+    {
+      "id": "policy-prompt-revision",
+      "name_zh": "策略与提示修订",
+      "phase": "post-execution",
+      "reference_numbers": [
+        113,
+        114,
+        115,
+        116
+      ],
+      "summary_zh": "持久改进后续运行的提示和策略。",
+      "source": "https://arxiv.org/html/2606.01581v2#S7"
+    }
+  ]
+}

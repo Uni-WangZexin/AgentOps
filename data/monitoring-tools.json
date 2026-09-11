@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "source_paper": "arXiv:2606.01581v2",
+    "source_url": "https://arxiv.org/html/2606.01581v2#S4.T4",
+    "checked_at": "2026-09-09",
+    "warning": "17项能力布尔值仅忠实转录Table IV论文快照，不是当前产品能力、服务可用性或选型排名。✗不能推导为今天绝对不支持。"
+  },
+  "tools": [
+    {
+      "name": "LangDB",
+      "survey_reference_number": 54,
+      "introduction_from_survey": "综述强调Rust实现、路由优化与成本控制；适合作为网关式观测的例子。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": false,
+        "performance": false,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://github.com/langdb/ai-gateway",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文仓库链接重定向到vllora/vllora；保留旧名称以对应综述，当前项目名称已不同。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://github.com/vllora/vllora"
+    },
+    {
+      "name": "LangFuse",
+      "survey_reference_number": 55,
+      "introduction_from_survey": "综述强调OpenTelemetry集成，并结合trace、评估及开发流程。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": true,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://github.com/langfuse/langfuse",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://github.com/langfuse/langfuse"
+    },
+    {
+      "name": "MLFlow",
+      "survey_reference_number": 56,
+      "introduction_from_survey": "从机器学习实验管理扩展到GenAI，综述提到可为agent系统定义自定义指标。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": false,
+        "cost": true,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://mlflow.org/genai",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://mlflow.org/genai"
+    },
+    {
+      "name": "Helicone",
+      "survey_reference_number": 57,
+      "introduction_from_survey": "综述将可观测性与缓存、网关fallback相联系，用于延迟与资源管理。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://github.com/Helicone/helicone",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://github.com/Helicone/helicone"
+    },
+    {
+      "name": "LangWatch",
+      "survey_reference_number": 58,
+      "introduction_from_survey": "综述归纳为观测、评估和开发能力，并提到MCP服务入口。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://github.com/langwatch",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://github.com/langwatch"
+    },
+    {
+      "name": "LlamaTrace",
+      "survey_reference_number": 59,
+      "introduction_from_survey": "书目将其定义为托管Phoenix的LLM tracing与评估平台。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://phoenix.arize.com/llamatrace/",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://phoenix.arize.com/llamatrace/"
+    },
+    {
+      "name": "OpenLLMetry",
+      "survey_reference_number": 60,
+      "introduction_from_survey": "基于OpenTelemetry的LLM插桩工具；综述认为prompt优化和评估支持较有限。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": false,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://github.com/traceloop/openllmetry",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://github.com/traceloop/openllmetry"
+    },
+    {
+      "name": "Arize Phoenix",
+      "survey_reference_number": 61,
+      "introduction_from_survey": "书目将其定位为开源LLM tracing与评估平台。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://phoenix.arize.com/",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文域名重定向到arize.com/phoenix/；页面可访问。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://arize.com/phoenix/"
+    },
+    {
+      "name": "Literal AI",
+      "survey_reference_number": 62,
+      "introduction_from_survey": "综述列入协作观测、评估与开发平台；现有官方迁移公告另见下方。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://www.literalai.com/",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文官网链接读取返回404；官方迁移文档公告服务仅持续至2025-10-31，故保留为历史条目。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://docs.literalai.com/more/migration-guide",
+      "status_evidence_url": "https://docs.literalai.com/more/migration-guide"
+    },
+    {
+      "name": "Opik",
+      "survey_reference_number": 63,
+      "introduction_from_survey": "书目将其定位为开源LLM评估平台，同时进入该表的观测能力比较。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://www.comet.com/site/products/opik/",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://www.comet.com/site/products/opik/"
+    },
+    {
+      "name": "OpenInference",
+      "survey_reference_number": 64,
+      "introduction_from_survey": "面向AI可观测性的OpenTelemetry插桩与语义规范生态；属于采集层而非单一托管后台。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": false,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://github.com/Arize-ai/openinference",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://github.com/Arize-ai/openinference"
+    },
+    {
+      "name": "TruLens",
+      "survey_reference_number": 65,
+      "introduction_from_survey": "综述强调Python包、LlamaIndex等集成，以及人类反馈支持的迭代优化。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://www.trulens.org/",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://www.trulens.org/"
+    },
+    {
+      "name": "HoneyHive",
+      "survey_reference_number": 66,
+      "introduction_from_survey": "综述强调分布式trace、多模态系统与自定义span。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://www.honeyhive.ai/",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://www.honeyhive.ai/"
+    },
+    {
+      "name": "PromptLayer",
+      "survey_reference_number": 67,
+      "introduction_from_survey": "从prompt管理与优化出发，综述强调prompt ranking等观测功能。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://www.promptlayer.com/",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://www.promptlayer.com/"
+    },
+    {
+      "name": "AgentOpsMonitor",
+      "survey_reference_number": 68,
+      "introduction_from_survey": "综述除可观测性之外还强调运行管理；此名称对应AgentOps.ai产品。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://www.agentops.ai/",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://www.agentops.ai/"
+    },
+    {
+      "name": "DeepEval",
+      "survey_reference_number": 69,
+      "introduction_from_survey": "综述指出其重心是评估；不要仅依据表格将其当作完整生产监控后端。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": false,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://github.com/confident-ai/deepeval",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://github.com/confident-ai/deepeval"
+    },
+    {
+      "name": "LangSmith",
+      "survey_reference_number": 70,
+      "introduction_from_survey": "综述归纳tracing、评估与数据集管理，以及LangChain工作流调试与优化。",
+      "source_table": "https://arxiv.org/html/2606.01581v2#S4.T4",
+      "capabilities_snapshot": {
+        "system": true,
+        "cost": true,
+        "rag": true,
+        "performance": true,
+        "log": true,
+        "trace": true
+      },
+      "cited_url": "https://www.langchain.com/langsmith-platform",
+      "checked_at": "2026-09-09",
+      "endpoint_status": "原文链接页面可访问；未安装、试用或逐项测试产品能力。",
+      "current_capabilities_verified": false,
+      "resolved_url": "https://www.langchain.com/langsmith-platform"
+    }
+  ]
+}

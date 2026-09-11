@@ -1,0 +1,169 @@
+[
+  {
+    "id": "reasoning",
+    "name_zh": "推理异常",
+    "name_en": "Reasoning",
+    "structural_level": "intra-agent",
+    "definition_zh": "推理或生成偏离事实、逻辑或任务要求。",
+    "source": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS1",
+    "reference_numbers": [
+      17,
+      18,
+      9,
+      19
+    ],
+    "suggested_evidence_editorial": [
+      "事实来源",
+      "输入输出",
+      "一致性信号",
+      "可获得的模型内部信号"
+    ],
+    "phase_note_zh": "执行前/中/后为正交维度；此条不限定唯一发生阶段。"
+  },
+  {
+    "id": "action",
+    "name_zh": "动作异常",
+    "name_en": "Action",
+    "structural_level": "intra-agent",
+    "definition_zh": "工具调用或函数调用未能正确执行预定操作。",
+    "source": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS2",
+    "reference_numbers": [
+      20,
+      21,
+      22
+    ],
+    "suggested_evidence_editorial": [
+      "工具schema与版本",
+      "实际参数与返回值",
+      "调用顺序",
+      "执行前后状态"
+    ],
+    "phase_note_zh": "执行前/中/后为正交维度；此条不限定唯一发生阶段。"
+  },
+  {
+    "id": "memory",
+    "name_zh": "记忆异常",
+    "name_en": "Memory",
+    "structural_level": "intra-agent",
+    "definition_zh": "短期上下文或长期检索记忆发生保留、召回或利用失效。",
+    "source": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS3",
+    "reference_numbers": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "suggested_evidence_editorial": [
+      "上下文版本",
+      "压缩摘要",
+      "召回文档与时间",
+      "证据冲突"
+    ],
+    "phase_note_zh": "执行前/中/后为正交维度；此条不限定唯一发生阶段。"
+  },
+  {
+    "id": "security",
+    "name_zh": "安全异常",
+    "name_en": "Security",
+    "structural_level": "intra-agent",
+    "definition_zh": "操作违反安全策略、访问控制或身份约束。",
+    "source": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS4",
+    "reference_numbers": [
+      29,
+      30
+    ],
+    "suggested_evidence_editorial": [
+      "授权来源",
+      "身份权限快照",
+      "委派链",
+      "外部输入来源",
+      "副作用"
+    ],
+    "phase_note_zh": "执行前/中/后为正交维度；此条不限定唯一发生阶段。"
+  },
+  {
+    "id": "task-specification",
+    "name_zh": "任务规范异常",
+    "name_en": "Task Specification",
+    "structural_level": "inter-agent",
+    "definition_zh": "目标、约束、角色或配置含糊、不完整或不一致。",
+    "source": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS1",
+    "reference_numbers": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "suggested_evidence_editorial": [
+      "原始请求与澄清",
+      "角色工具配置",
+      "成功标准"
+    ],
+    "phase_note_zh": "执行前/中/后为正交维度；此条不限定唯一发生阶段。"
+  },
+  {
+    "id": "orchestration",
+    "name_zh": "编排异常",
+    "name_en": "Orchestration",
+    "structural_level": "inter-agent",
+    "definition_zh": "全局规划、任务分解、角色工具分配、依赖或流程控制失效。",
+    "source": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS2",
+    "reference_numbers": [
+      37,
+      38,
+      39
+    ],
+    "suggested_evidence_editorial": [
+      "计划版本",
+      "任务依赖图",
+      "资源分配",
+      "重规划原因"
+    ],
+    "phase_note_zh": "执行前/中/后为正交维度；此条不限定唯一发生阶段。"
+  },
+  {
+    "id": "communication",
+    "name_zh": "通信异常",
+    "name_en": "Communication",
+    "structural_level": "inter-agent",
+    "definition_zh": "消息交换异常影响协同，原文重点讨论冗余与消息风暴。",
+    "source": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS3",
+    "reference_numbers": [
+      40,
+      41
+    ],
+    "suggested_evidence_editorial": [
+      "收发消息与依赖",
+      "频率和重复度",
+      "token与延迟成本"
+    ],
+    "phase_note_zh": "执行前/中/后为正交维度；此条不限定唯一发生阶段。"
+  },
+  {
+    "id": "termination",
+    "name_zh": "终止异常",
+    "name_en": "Termination",
+    "structural_level": "inter-agent",
+    "definition_zh": "错误判断应停止还是继续，导致提前结束或不终止。",
+    "source": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS4",
+    "reference_numbers": [
+      31,
+      42,
+      43,
+      12,
+      44,
+      45
+    ],
+    "suggested_evidence_editorial": [
+      "终止理由",
+      "验收记录",
+      "步数与预算",
+      "重复状态与递归深度"
+    ],
+    "phase_note_zh": "执行前/中/后为正交维度；此条不限定唯一发生阶段。"
+  }
+]

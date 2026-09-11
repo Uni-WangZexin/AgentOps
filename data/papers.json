@@ -1,0 +1,3299 @@
+[
+  {
+    "id": "paper-1",
+    "reference_numbers": [
+      1
+    ],
+    "name": "DeepSeek-R1",
+    "title": "Deepseek-r1: incentivizing reasoning capability in llms via reinforcement learning",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2501.12948",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2501.12948",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "DeepSeek-R1 以强化学习提升推理能力，是综述讨论智能体推理能力及其异常的背景模型。",
+    "primary_category": "reasoning",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§I",
+        "anchor": "#S1.p1.1",
+        "section_title": "I Introduction",
+        "url": "https://arxiv.org/html/2606.01581v2#S1.p1.1"
+      },
+      {
+        "label": "§II-B1",
+        "anchor": "#S2.SS2.SSS1.p1.1",
+        "section_title": "II-B1 Reasoning Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS1.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": [
+      "当前 arXiv 作者名单以 DeepSeek-AI 开头，且作者排序与综述所列不同；保留综述作者字段，不把缩略书目作为完整官方作者表。"
+    ]
+  },
+  {
+    "id": "paper-3",
+    "reference_numbers": [
+      3
+    ],
+    "name": null,
+    "title": "Econagent: large language model-empowered agents for simulating macroeconomic activities",
+    "year": 2024,
+    "venue_as_cited": null,
+    "source_type": "research_paper_unspecified",
+    "paper_url": "https://arxiv.org/abs/2310.10436",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "EconAgent 用具有感知、记忆与决策能力的语言模型智能体模拟宏观经济活动，展示多智能体的应用范围。",
+    "primary_category": "background",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§I",
+        "anchor": "#S1.p1.1",
+        "section_title": "I Introduction",
+        "url": "https://arxiv.org/html/2606.01581v2#S1.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-4",
+    "reference_numbers": [
+      4
+    ],
+    "name": "ToolLLM",
+    "title": "ToolLLM: facilitating large language models to master 16000+ real-world apis",
+    "year": 2024,
+    "venue_as_cited": "The Twelfth International Conference on Learning Representations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2307.16789",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "ToolLLM 围绕大规模真实 API 构建指令与调用路径训练资源；综述将其作为多步工具规划的能力增强方法。",
+    "primary_category": "action",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§I",
+        "anchor": "#S1.p1.1",
+        "section_title": "I Introduction",
+        "url": "https://arxiv.org/html/2606.01581v2#S1.p1.1"
+      },
+      {
+        "label": "2nd item",
+        "anchor": "#S5.I4.i2.p1.1",
+        "section_title": "In V-A6 Detecting Orchestration Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I4.i2.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.26.2",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.26.2"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-5",
+    "reference_numbers": [
+      5
+    ],
+    "name": null,
+    "title": "Flow-of-action: sop enhanced llm-based multi-agent system for root cause analysis",
+    "year": 2025,
+    "venue_as_cited": "Companion Proceedings of the ACM on Web Conference 2025",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2502.08224",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Flow-of-Action 用标准操作流程约束多智能体诊断过程；诊断对象是微服务故障，是“用智能体运维系统”的应用例子。",
+    "primary_category": "background",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§I",
+        "anchor": "#S1.p1.1",
+        "section_title": "I Introduction",
+        "url": "https://arxiv.org/html/2606.01581v2#S1.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-6",
+    "reference_numbers": [
+      6
+    ],
+    "name": null,
+    "title": "Recommender ai agent: integrating large language models for interactive recommendations",
+    "year": 2025,
+    "venue_as_cited": "ACM Transactions on Information Systems",
+    "source_type": "journal_article",
+    "paper_url": "https://arxiv.org/abs/2308.16505",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "InteRecAgent 结合语言模型与推荐工具，借助记忆、规划和反思实现交互式推荐。",
+    "primary_category": "background",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§I",
+        "anchor": "#S1.p1.1",
+        "section_title": "I Introduction",
+        "url": "https://arxiv.org/html/2606.01581v2#S1.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-7",
+    "reference_numbers": [
+      7
+    ],
+    "name": null,
+    "title": "Trajaudit: automated failure diagnosis for agentic coding systems",
+    "year": 2026,
+    "venue_as_cited": "arXiv preprint arXiv:2605.26563",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2605.26563",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "TrajAudit 研究编码智能体执行轨迹的自动失败诊断，补充综述对真实工程智能体故障分析的讨论。",
+    "primary_category": "root-cause",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§I",
+        "anchor": "#S1.p2.1",
+        "section_title": "I Introduction",
+        "url": "https://arxiv.org/html/2606.01581v2#S1.p2.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-8",
+    "reference_numbers": [
+      8
+    ],
+    "name": null,
+    "title": "Agent ai: surveying the horizons of multimodal interaction",
+    "year": 2024,
+    "venue_as_cited": "arXiv preprint arXiv:2401.03568",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2401.03568",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Agent AI 综述多模态交互智能体的发展，用于说明已有综述覆盖能力与交互，却未完全覆盖系统运维链路。",
+    "primary_category": "background",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§I",
+        "anchor": "#S1.p4.1",
+        "section_title": "I Introduction",
+        "url": "https://arxiv.org/html/2606.01581v2#S1.p4.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-9",
+    "reference_numbers": [
+      9
+    ],
+    "name": null,
+    "title": "Hallucination detection in foundation models for decision-making: a flexible definition and review of the state of the art",
+    "year": 2025,
+    "venue_as_cited": "ACM Computing Surveys",
+    "source_type": "journal_article",
+    "paper_url": "https://arxiv.org/abs/2403.16527",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "该综述从决策任务出发讨论基础模型幻觉的定义与检测，支撑推理异常的概念边界。",
+    "primary_category": "reasoning",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§I",
+        "anchor": "#S1.p4.1",
+        "section_title": "I Introduction",
+        "url": "https://arxiv.org/html/2606.01581v2#S1.p4.1"
+      },
+      {
+        "label": "§II-B1",
+        "anchor": "#S2.SS2.SSS1.p2.1",
+        "section_title": "II-B1 Reasoning Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS1.p2.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-10",
+    "reference_numbers": [
+      10
+    ],
+    "name": null,
+    "title": "Ai agents under threat: a survey of key security challenges and future pathways",
+    "year": 2025,
+    "venue_as_cited": "ACM Computing Surveys",
+    "source_type": "journal_article",
+    "paper_url": "https://arxiv.org/abs/2406.02630",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "总结 AI 智能体的安全威胁与研究方向，为综述的安全异常类别提供背景。",
+    "primary_category": "security",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§I",
+        "anchor": "#S1.p4.1",
+        "section_title": "I Introduction",
+        "url": "https://arxiv.org/html/2606.01581v2#S1.p4.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-11",
+    "reference_numbers": [
+      11
+    ],
+    "name": null,
+    "title": "Towards trustworthy gui agents: a survey",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2503.23434",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2503.23434",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "梳理 GUI 智能体的可信性问题，是界面操作场景下可靠性与安全研究的参考。",
+    "primary_category": "background",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§I",
+        "anchor": "#S1.p4.1",
+        "section_title": "I Introduction",
+        "url": "https://arxiv.org/html/2606.01581v2#S1.p4.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": [
+      "当前 arXiv 作者列表包含 Jingyuan Huang，综述书目未列；作者字段按综述保留。"
+    ]
+  },
+  {
+    "id": "paper-12",
+    "reference_numbers": [
+      12
+    ],
+    "name": "Who&When",
+    "title": "Which agent causes task failures and when? on automated failure attribution of LLM multi-agent systems",
+    "year": 2025,
+    "venue_as_cited": "Forty-second International Conference on Machine Learning",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2505.00212",
+    "project_url": "https://github.com/ag2ai/Agents_Failure_Attribution",
+    "data_url": "https://huggingface.co/datasets/Kevin355/Who_and_When",
+    "summary_zh": "Who&When 将失败归因拆为责任智能体和关键错误步骤，并比较整段判断、逐步判断与二分查找三种策略。",
+    "primary_category": "root-cause",
+    "related_categories": [
+      "termination",
+      "benchmarks"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§I",
+        "anchor": "#S1.p7.1",
+        "section_title": "I Introduction",
+        "url": "https://arxiv.org/html/2606.01581v2#S1.p7.1"
+      },
+      {
+        "label": "§II-A",
+        "anchor": "#S2.SS1.p1.1",
+        "section_title": "II-A Definition of Anomalies in Agent Systems ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS1.p1.1"
+      },
+      {
+        "label": "§II-C4",
+        "anchor": "#S2.SS3.SSS4.p1.1",
+        "section_title": "II-C4 Termination Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS4.p1.1"
+      },
+      {
+        "label": "3rd item",
+        "anchor": "#S3.I1.i3.p1.1",
+        "section_title": "In III-B Difference between Traditional Operations and AgentOps ‣ III What is AgentOps?",
+        "url": "https://arxiv.org/html/2606.01581v2#S3.I1.i3.p1.1"
+      },
+      {
+        "label": "§VI-B3",
+        "anchor": "#S6.SS2.SSS3.p1.1",
+        "section_title": "VI-B3 LLM-based Attribution ‣ VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.SS2.SSS3.p1.1"
+      },
+      {
+        "label": "TABLE VI",
+        "anchor": "#S6.T6.5.4.2.1.1",
+        "section_title": "In VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.T6.5.4.2.1.1"
+      },
+      {
+        "label": "TABLE VIII",
+        "anchor": "#S8.T8.4.2.1.1.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T8.4.2.1.1.1"
+      },
+      {
+        "label": "TABLE IX",
+        "anchor": "#S8.T9.5.1.3.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T9.5.1.3.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-13",
+    "reference_numbers": [
+      13
+    ],
+    "name": null,
+    "title": "Holistic agent leaderboard: the missing infrastructure for ai agent evaluation",
+    "year": 2026,
+    "venue_as_cited": "The Fourteenth International Conference on Learning Representations (ICLR)",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2510.11977",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "HAL 讨论统一、可复现的智能体评测基础设施，帮助理解为什么孤立的任务分数不足以支撑运维评估。",
+    "primary_category": "benchmarks",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-A",
+        "anchor": "#S2.SS1.p1.1.1",
+        "section_title": "II-A Definition of Anomalies in Agent Systems ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS1.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-14",
+    "reference_numbers": [
+      14
+    ],
+    "name": "ReAct",
+    "title": "ReAct: synergizing reasoning and acting in language models",
+    "year": 2023,
+    "venue_as_cited": "International Conference on Learning Representations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2210.03629",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "ReAct 交替进行推理、行动和环境观察，使智能体能够据反馈调整计划；综述在规划与运行时纠错中引用它。",
+    "primary_category": "orchestration",
+    "related_categories": [
+      "reasoning",
+      "resolution"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B",
+        "anchor": "#S2.SS2.p1.1",
+        "section_title": "II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.p1.1"
+      },
+      {
+        "label": "1st item",
+        "anchor": "#S5.I4.i1.p1.1",
+        "section_title": "In V-A6 Detecting Orchestration Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I4.i1.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.25.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.25.1"
+      },
+      {
+        "label": "1st item",
+        "anchor": "#S7.I1.i1.p1.1",
+        "section_title": "In VII-A1 Pre-execution Preventive Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I1.i1.p1.1"
+      },
+      {
+        "label": "1st item",
+        "anchor": "#S7.I2.i1.p1.1",
+        "section_title": "In VII-A2 In-execution Corrective Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I2.i1.p1.1"
+      },
+      {
+        "label": "§VII-A",
+        "anchor": "#S7.SS1.p1.1.1",
+        "section_title": "VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.SS1.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-15",
+    "reference_numbers": [
+      15
+    ],
+    "name": null,
+    "title": "Finetuned language models are zero-shot learners",
+    "year": 2022,
+    "venue_as_cited": "International Conference on Learning Representations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2109.01652",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "FLAN 研究指令微调带来的零样本迁移能力，作为智能体推理基础能力的背景。",
+    "primary_category": "reasoning",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B1",
+        "anchor": "#S2.SS2.SSS1.p1.1",
+        "section_title": "II-B1 Reasoning Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS1.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-16",
+    "reference_numbers": [
+      16,
+      104
+    ],
+    "name": "CoT",
+    "title": "Chain-of-thought prompting elicits reasoning in large language models",
+    "year": 2022,
+    "venue_as_cited": "Advances in neural information processing systems",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2201.11903",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Chain-of-Thought 通过显式中间推理步骤改善复杂任务表现；与原文 [104] 是同一论文的重复书目条目。",
+    "primary_category": "reasoning",
+    "related_categories": [
+      "resolution"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B1",
+        "anchor": "#S2.SS2.SSS1.p1.1",
+        "section_title": "II-B1 Reasoning Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS1.p1.1"
+      },
+      {
+        "label": "1st item",
+        "anchor": "#S7.I1.i1.p1.1",
+        "section_title": "In VII-A1 Pre-execution Preventive Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I1.i1.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": [
+      "与 [104] 为同一篇 Chain-of-Thought 论文，两个原始编号均保留；统计独立工作时应合并。"
+    ]
+  },
+  {
+    "id": "paper-17",
+    "reference_numbers": [
+      17
+    ],
+    "name": null,
+    "title": "A survey of hallucination in large foundation models",
+    "year": 2023,
+    "venue_as_cited": "arXiv preprint arXiv:2309.05922",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2309.05922",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "系统讨论大型基础模型的幻觉现象、成因与处理方法，为推理异常提供已有研究背景。",
+    "primary_category": "reasoning",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B1",
+        "anchor": "#S2.SS2.SSS1.p2.1",
+        "section_title": "II-B1 Reasoning Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS1.p2.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-18",
+    "reference_numbers": [
+      18
+    ],
+    "name": null,
+    "title": "Peer review of gpt-4 technical report and systems card",
+    "year": 2024,
+    "venue_as_cited": "PLOS digital health",
+    "source_type": "journal_article",
+    "paper_url": "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000417",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "针对 GPT-4 技术报告与系统卡进行学术评议，涉及模型报告与可靠性证据的充分性。",
+    "primary_category": "reasoning",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B1",
+        "anchor": "#S2.SS2.SSS1.p2.1",
+        "section_title": "II-B1 Reasoning Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS1.p2.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-19",
+    "reference_numbers": [
+      19
+    ],
+    "name": "Honesty",
+    "title": "Alignment for honesty",
+    "year": 2024,
+    "venue_as_cited": "Advances in Neural Information Processing Systems",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2312.07000",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Alignment for Honesty 研究模型如何承认知识边界，通过评测与训练降低超出知识范围时的无依据回答。",
+    "primary_category": "reasoning",
+    "related_categories": [
+      "reasoning"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B1",
+        "anchor": "#S2.SS2.SSS1.p2.1",
+        "section_title": "II-B1 Reasoning Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS1.p2.1"
+      },
+      {
+        "label": "1st item",
+        "anchor": "#S5.I1.i1.p1.1",
+        "section_title": "In V-A1 Detecting Reasoning Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I1.i1.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.4.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.4.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-20",
+    "reference_numbers": [
+      20
+    ],
+    "name": null,
+    "title": "Function calling in large language models: industrial practices, challenges, and future directions",
+    "year": 2025,
+    "venue_as_cited": null,
+    "source_type": "research_paper_unspecified",
+    "paper_url": "https://openreview.net/forum?id=LNxVGPedFW",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "从工业实践梳理函数调用的流程、挑战与方向，为行动异常中的调用错误、接口约束等问题提供背景。",
+    "primary_category": "action",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B2",
+        "anchor": "#S2.SS2.SSS2.p1.1",
+        "section_title": "II-B2 Action Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS2.p1.1"
+      }
+    ],
+    "verification_status": "source_located_access_limited",
+    "notes": [
+      "原文未写来源且年份为 2025；作者项目仓库现给出 ACM Computing Surveys 2026 及 DOI 10.1145/3788284。本目录保留原文元数据，出版信息应另核。"
+    ]
+  },
+  {
+    "id": "paper-21",
+    "reference_numbers": [
+      21
+    ],
+    "name": null,
+    "title": "The dark side of function calling: pathways to jailbreaking large language models",
+    "year": 2025,
+    "venue_as_cited": "Proceedings of the 31st International Conference on Computational Linguistics",
+    "source_type": "conference_paper",
+    "paper_url": "https://aclanthology.org/2025.coling-main.39/",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "研究函数调用能力暴露的越狱路径，说明工具接口也可能成为安全风险入口。",
+    "primary_category": "action",
+    "related_categories": [
+      "security"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B2",
+        "anchor": "#S2.SS2.SSS2.p1.1",
+        "section_title": "II-B2 Action Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS2.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": [
+      "原文年份误写为 20242025；ACL Anthology 的 COLING 2025 页面支持 2025，规范化 year 改为 2025，year_as_cited 保留原值。"
+    ]
+  },
+  {
+    "id": "paper-23",
+    "reference_numbers": [
+      23
+    ],
+    "name": "Lost in the Middle",
+    "title": "Lost in the middle: how language models use long contexts",
+    "year": 2024,
+    "venue_as_cited": "Transactions of the Association for Computational Linguistics",
+    "source_type": "journal_article",
+    "paper_url": "https://arxiv.org/abs/2307.03172",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Lost in the Middle 检验信息位置如何影响长上下文利用能力，是短期记忆异常的重要证据。",
+    "primary_category": "memory",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B3",
+        "anchor": "#S2.SS2.SSS3.p1.1",
+        "section_title": "II-B3 Memory Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS3.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-24",
+    "reference_numbers": [
+      24
+    ],
+    "name": "PI-LLM",
+    "title": "Unable to forget: proactive interference reveals working memory limits in llms beyond context length",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2506.08184",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2506.08184",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "研究主动干扰对 LLM 工作记忆的影响，说明上下文长度增加不等于记忆能力无限扩展。",
+    "primary_category": "memory",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B3",
+        "anchor": "#S2.SS2.SSS3.p1.1",
+        "section_title": "II-B3 Memory Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS3.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-25",
+    "reference_numbers": [
+      25
+    ],
+    "name": "QE-RAG",
+    "title": "QE-rag: a robust retrieval-augmented generation benchmark for query entry errors",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2504.04062",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2504.04062",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "QE-RAG 针对查询输入错误设计 RAG 鲁棒性评测，展示检索链路入口错误如何影响后续生成。",
+    "primary_category": "memory",
+    "related_categories": [
+      "benchmarks"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B3",
+        "anchor": "#S2.SS2.SSS3.p2.1",
+        "section_title": "II-B3 Memory Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS3.p2.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-26",
+    "reference_numbers": [
+      26
+    ],
+    "name": "Astute RAG",
+    "title": "Astute rag: overcoming imperfect retrieval augmentation and knowledge conflicts for large language models",
+    "year": 2024,
+    "venue_as_cited": "arXiv preprint arXiv:2410.07176",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2410.07176",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Astute RAG 研究不完美检索和知识冲突下的生成，强调外部检索内容并不天然可靠。",
+    "primary_category": "memory",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B3",
+        "anchor": "#S2.SS2.SSS3.p2.1",
+        "section_title": "II-B3 Memory Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS3.p2.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-27",
+    "reference_numbers": [
+      27
+    ],
+    "name": "ReDeEP",
+    "title": "ReDeEP: detecting hallucination in retrieval-augmented generation via mechanistic interpretability",
+    "year": 2025,
+    "venue_as_cited": "The Thirteenth International Conference on Learning Representations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2410.11414",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "ReDeEP 区分外部上下文与参数知识的利用以检测 RAG 幻觉；同文的 AARF 承担缓解作用，二者功能应分开理解。",
+    "primary_category": "memory",
+    "related_categories": [
+      "reasoning"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B3",
+        "anchor": "#S2.SS2.SSS3.p2.1",
+        "section_title": "II-B3 Memory Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS3.p2.1"
+      },
+      {
+        "label": "2nd item",
+        "anchor": "#S5.I2.i2.p1.1",
+        "section_title": "In V-A3 Detecting Memory Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I2.i2.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.13.2",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.13.2"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": [
+      "当前 arXiv 元数据将 Yang Song 出现两次，综述仅列一次；不据此静默改写作者表。ReDeEP 是检测方法，AARF 是同文提出的缓解方法。"
+    ]
+  },
+  {
+    "id": "paper-28",
+    "reference_numbers": [
+      28
+    ],
+    "name": "RAG Benchmark",
+    "title": "Benchmarking large language models in retrieval-augmented generation",
+    "year": 2024,
+    "venue_as_cited": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2309.01431",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "RGB 从多个能力维度评测 RAG 中的语言模型，提供分析检索、冲突信息和生成可靠性的基准背景。",
+    "primary_category": "memory",
+    "related_categories": [
+      "benchmarks"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B3",
+        "anchor": "#S2.SS2.SSS3.p2.1",
+        "section_title": "II-B3 Memory Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS3.p2.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-30",
+    "reference_numbers": [
+      30
+    ],
+    "name": "ASB",
+    "title": "Agent security bench (asb): formalizing and benchmarking attacks and defenses in llm-based agents",
+    "year": 2025,
+    "venue_as_cited": "International Conference on Learning Representations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2410.02644",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Agent Security Bench 系统化评测智能体攻击与防御，为安全异常提供威胁模型与实验场景。",
+    "primary_category": "security",
+    "related_categories": [
+      "benchmarks"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-B4",
+        "anchor": "#S2.SS2.SSS4.p2.1",
+        "section_title": "II-B4 Security Anomalies ‣ II-B Intra-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS2.SSS4.p2.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-31",
+    "reference_numbers": [
+      31
+    ],
+    "name": "MAST workshop",
+    "title": "Why do multiagent systems fail?",
+    "year": 2025,
+    "venue_as_cited": "ICLR 2025 Workshop on Building Trust in Language Models and Applications",
+    "source_type": "conference_paper",
+    "paper_url": "https://openreview.net/forum?id=wM521FqPvI",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "该 ICLR 工作坊论文分析多智能体失效模式与协作缺陷；与 [117] 属相关研究版本，保留原始独立编号。",
+    "primary_category": "task-specification",
+    "related_categories": [
+      "termination"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-C1",
+        "anchor": "#S2.SS3.SSS1.p1.1",
+        "section_title": "II-C1 Task Specification Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS1.p1.1"
+      },
+      {
+        "label": "§II-C1",
+        "anchor": "#S2.SS3.SSS1.p2.1",
+        "section_title": "II-C1 Task Specification Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS1.p2.1"
+      },
+      {
+        "label": "§II-C4",
+        "anchor": "#S2.SS3.SSS4.p1.1",
+        "section_title": "II-C4 Termination Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS4.p1.1"
+      }
+    ],
+    "verification_status": "source_located_access_limited",
+    "notes": [
+      "保留 ICLR 2025 工作坊版本链接；与 [117] 研究团队和主题相关但标题、第一作者及版本内容有差异，不能直接当作同一版本替换。OpenReview 本次返回浏览器验证页。"
+    ]
+  },
+  {
+    "id": "paper-32",
+    "reference_numbers": [
+      32
+    ],
+    "name": null,
+    "title": "Emergence in multi-agent systems: a safety perspective",
+    "year": 2024,
+    "venue_as_cited": "International Symposium on Leveraging Applications of Formal Methods",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2408.04514",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "从安全角度讨论多智能体涌现行为，强调单体行为正常仍可能形成系统层面的危险结果。",
+    "primary_category": "security",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-C1",
+        "anchor": "#S2.SS3.SSS1.p1.1",
+        "section_title": "II-C1 Task Specification Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS1.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-33",
+    "reference_numbers": [
+      33
+    ],
+    "name": "SentinelAgent",
+    "title": "SentinelAgent: graph-based anomaly detection in multi-agent systems",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2505.24201",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2505.24201",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "SentinelAgent 以交互图表示多智能体系统，在多个粒度识别异常协作模式；异常节点不应自动等同于已证实根因。",
+    "primary_category": "security",
+    "related_categories": [
+      "task-specification",
+      "root-cause"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-C1",
+        "anchor": "#S2.SS3.SSS1.p1.1",
+        "section_title": "II-C1 Task Specification Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS1.p1.1"
+      },
+      {
+        "label": "§V-A4",
+        "anchor": "#S5.SS1.SSS4.p1.1",
+        "section_title": "V-A4 Detecting Security Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.SS1.SSS4.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.16.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.16.1"
+      },
+      {
+        "label": "§VI-B2",
+        "anchor": "#S6.SS2.SSS2.p1.1.1",
+        "section_title": "VI-B2 Structured Trace Modeling ‣ VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.SS2.SSS2.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-34",
+    "reference_numbers": [
+      34
+    ],
+    "name": null,
+    "title": "Modeling exception management in multi-agent systems.",
+    "year": 2007,
+    "venue_as_cited": null,
+    "source_type": "doctoral_thesis",
+    "paper_url": "https://ir.soken.ac.jp/records/865",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "这篇学位论文研究多智能体异常管理的建模问题，提供早于 LLM 智能体的异常处理背景。",
+    "primary_category": "task-specification",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-C1",
+        "anchor": "#S2.SS3.SSS1.p2.1",
+        "section_title": "II-C1 Task Specification Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS1.p2.1"
+      }
+    ],
+    "verification_status": "source_located_access_limited",
+    "notes": []
+  },
+  {
+    "id": "paper-36",
+    "reference_numbers": [
+      36
+    ],
+    "name": "AgentFM",
+    "title": "Agentfm: role-aware failure management for distributed databases with llm-driven multi-agents",
+    "year": 2025,
+    "venue_as_cited": "Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2504.06614",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "AgentFM 通过角色感知的多智能体协作管理分布式数据库故障，体现智能体在传统系统运维中的用途。",
+    "primary_category": "task-specification",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-C1",
+        "anchor": "#S2.SS3.SSS1.p2.1",
+        "section_title": "II-C1 Task Specification Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS1.p2.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-37",
+    "reference_numbers": [
+      37
+    ],
+    "name": null,
+    "title": "A survey on llm-based multi-agent systems: workflow, infrastructure, and challenges",
+    "year": 2024,
+    "venue_as_cited": "Vicinagearth",
+    "source_type": "journal_article",
+    "paper_url": "https://doi.org/10.1007/s44336-024-00009-2",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "按工作流、基础设施和挑战梳理 LLM 多智能体系统，为编排问题提供系统背景。",
+    "primary_category": "orchestration",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-C2",
+        "anchor": "#S2.SS3.SSS2.p1.1.1",
+        "section_title": "II-C2 Orchestration Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS2.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-38",
+    "reference_numbers": [
+      38
+    ],
+    "name": "AutoGen",
+    "title": "Autogen: enabling next-gen llm applications via multi-agent conversations",
+    "year": 2024,
+    "venue_as_cited": "First conference on language modeling",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2308.08155",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "AutoGen 以多智能体会话构建应用，支持规划、执行与审查等角色协作，是编排与纠错框架的例子。",
+    "primary_category": "orchestration",
+    "related_categories": [
+      "resolution"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-C2",
+        "anchor": "#S2.SS3.SSS2.p1.1.1",
+        "section_title": "II-C2 Orchestration Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS2.p1.1.1"
+      },
+      {
+        "label": "2nd item",
+        "anchor": "#S7.I1.i2.p1.1",
+        "section_title": "In VII-A1 Pre-execution Preventive Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I1.i2.p1.1"
+      },
+      {
+        "label": "4th item",
+        "anchor": "#S7.I2.i4.p1.1",
+        "section_title": "In VII-A2 In-execution Corrective Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I2.i4.p1.1"
+      },
+      {
+        "label": "§VII-A",
+        "anchor": "#S7.SS1.p1.1.1",
+        "section_title": "VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.SS1.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-39",
+    "reference_numbers": [
+      39
+    ],
+    "name": "CAMEL",
+    "title": "Camel: communicative agents for” mind” exploration of large language model society",
+    "year": 2023,
+    "venue_as_cited": "Advances in neural information processing systems",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2303.17760",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "CAMEL 用角色设定驱动智能体通信与任务协作，为理解角色对齐和编排机制提供背景。",
+    "primary_category": "orchestration",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-C2",
+        "anchor": "#S2.SS3.SSS2.p1.1.1",
+        "section_title": "II-C2 Orchestration Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS2.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-41",
+    "reference_numbers": [
+      41
+    ],
+    "name": "AgentPrune",
+    "title": "Cut the crap: an economical communication pipeline for llm-based multi-agent systems",
+    "year": 2025,
+    "venue_as_cited": "The Thirteenth International Conference on Learning Representations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2410.02506",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "AgentPrune 对消息传递图进行剪枝，降低冗余通信及其成本；综述将其放在通信异常检测与缓解中。",
+    "primary_category": "communication",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-C3",
+        "anchor": "#S2.SS3.SSS3.p1.1",
+        "section_title": "II-C3 Communication Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS3.p1.1"
+      },
+      {
+        "label": "§V-A7",
+        "anchor": "#S5.SS1.SSS7.p1.1.1",
+        "section_title": "V-A7 Detecting Communication Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.SS1.SSS7.p1.1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.29.3",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.29.3"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-43",
+    "reference_numbers": [
+      43
+    ],
+    "name": "Smurfs",
+    "title": "Smurfs: multi-agent system using context-efficient dfsdt for tool planning",
+    "year": 2025,
+    "venue_as_cited": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2405.05955",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Smurfs 用多个智能体和上下文高效的搜索机制分解工具规划任务，为多步协作与编排研究提供例子。",
+    "primary_category": "termination",
+    "related_categories": [
+      "orchestration"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-C4",
+        "anchor": "#S2.SS3.SSS4.p1.1",
+        "section_title": "II-C4 Termination Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS4.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-44",
+    "reference_numbers": [
+      44
+    ],
+    "name": "ReDel",
+    "title": "ReDel: a toolkit for llm-powered recursive multi-agent systems",
+    "year": 2024,
+    "venue_as_cited": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2408.02248",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "ReDel 支持递归任务委派、事件日志与执行回放，便于检查动态多智能体的组织和终止行为。",
+    "primary_category": "termination",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-C4",
+        "anchor": "#S2.SS3.SSS4.p2.1",
+        "section_title": "II-C4 Termination Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS4.p2.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-45",
+    "reference_numbers": [
+      45
+    ],
+    "name": "Neural Howlround",
+    "title": "’Neural howlround’in large language models: a self-reinforcing bias phenomenon, and a dynamic attenuation solution",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2504.07992",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2504.07992",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Neural howlround 讨论自我强化偏置及动态衰减机制，帮助理解反馈循环可能导致的异常持续行为。",
+    "primary_category": "termination",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§II-C4",
+        "anchor": "#S2.SS3.SSS4.p2.1",
+        "section_title": "II-C4 Termination Anomalies ‣ II-C Inter-Agent Anomalies ‣ II Anomalies in Agent Systems",
+        "url": "https://arxiv.org/html/2606.01581v2#S2.SS3.SSS4.p2.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-46",
+    "reference_numbers": [
+      46
+    ],
+    "name": null,
+    "title": "DevOps: a definition and perceived adoption impediments",
+    "year": 2015,
+    "venue_as_cited": "International conference on agile software development",
+    "source_type": "conference_paper",
+    "paper_url": "https://link.springer.com/chapter/10.1007/978-3-319-18612-2_14",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "通过定义与采用障碍讨论 DevOps，为综述比较 DevOps、AIOps、LLMOps 与 AgentOps 提供参照。",
+    "primary_category": "background",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "TABLE I",
+        "anchor": "#S3.T1.2.2.1.1.1",
+        "section_title": "In III What is AgentOps?",
+        "url": "https://arxiv.org/html/2606.01581v2#S3.T1.2.2.1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-47",
+    "reference_numbers": [
+      47
+    ],
+    "name": null,
+    "title": "Ai for it operations (aiops) on cloud platforms: reviews, opportunities and challenges",
+    "year": 2023,
+    "venue_as_cited": "arXiv preprint arXiv:2304.04661",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2304.04661",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "梳理云平台 AIOps 的研究、机会与挑战，是传统运维对象和智能体运维对象之间的比较背景。",
+    "primary_category": "background",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "TABLE I",
+        "anchor": "#S3.T1.2.3.1.1.1",
+        "section_title": "In III What is AgentOps?",
+        "url": "https://arxiv.org/html/2606.01581v2#S3.T1.2.3.1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-48",
+    "reference_numbers": [
+      48
+    ],
+    "name": null,
+    "title": "Transitioning from mlops to llmops: navigating the unique challenges of large language models",
+    "year": 2025,
+    "venue_as_cited": "Information",
+    "source_type": "journal_article",
+    "paper_url": "https://www.mdpi.com/2078-2489/16/2/87",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "讨论从 MLOps 到 LLMOps 的变化，为解释语言模型应用在部署、监测与维护上的特殊要求提供背景。",
+    "primary_category": "background",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "TABLE I",
+        "anchor": "#S3.T1.2.4.1.1.1",
+        "section_title": "In III What is AgentOps?",
+        "url": "https://arxiv.org/html/2606.01581v2#S3.T1.2.4.1.1.1"
+      }
+    ],
+    "verification_status": "source_located_access_limited",
+    "notes": []
+  },
+  {
+    "id": "paper-51",
+    "reference_numbers": [
+      51
+    ],
+    "name": "AgentOps Observability",
+    "title": "Agentops: enabling observability of llm agents",
+    "year": 2024,
+    "venue_as_cited": "arXiv preprint arXiv:2411.05285",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2411.05285",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "讨论如何让 LLM 智能体获得可观测性，是以监控为核心的早期 AgentOps 工作。",
+    "primary_category": "monitoring",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§III-C",
+        "anchor": "#S3.SS3.p1.1.1",
+        "section_title": "III-C Difference from Previous AgentOps Work ‣ III What is AgentOps?",
+        "url": "https://arxiv.org/html/2606.01581v2#S3.SS3.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-52",
+    "reference_numbers": [
+      52
+    ],
+    "name": "CHANGE",
+    "title": "Architecting agentops needs change",
+    "year": 2026,
+    "venue_as_cited": null,
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2601.06456",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "从软件架构视角讨论 AgentOps 所需能力与变化，补充仅依赖日志追踪的运维视角。",
+    "primary_category": "monitoring",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§III-C",
+        "anchor": "#S3.SS3.p1.1.1",
+        "section_title": "III-C Difference from Previous AgentOps Work ‣ III What is AgentOps?",
+        "url": "https://arxiv.org/html/2606.01581v2#S3.SS3.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-53",
+    "reference_numbers": [
+      53
+    ],
+    "name": "AgentOps Automation",
+    "title": "Taming uncertainty via automation: observing, analyzing, and optimizing agentic ai systems",
+    "year": 2025,
+    "venue_as_cited": null,
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2507.11277",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "围绕观察、分析与优化构建自动化思路，强调处理智能体系统中的不确定性。",
+    "primary_category": "monitoring",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§III-C",
+        "anchor": "#S3.SS3.p1.1.1",
+        "section_title": "III-C Difference from Previous AgentOps Work ‣ III What is AgentOps?",
+        "url": "https://arxiv.org/html/2606.01581v2#S3.SS3.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-71",
+    "reference_numbers": [
+      71
+    ],
+    "name": null,
+    "title": "Mlcapsule: guarded offline deployment of machine learning as a service",
+    "year": 2021,
+    "venue_as_cited": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/1808.00590",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "MLCapsule 研究受保护的离线模型服务部署，为模型内部信息的可访问性与可观测性约束提供背景。",
+    "primary_category": "security",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§IV-C",
+        "anchor": "#S4.SS3.p2.1.1",
+        "section_title": "IV-C Future Directions ‣ IV How to Monitor Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S4.SS3.p2.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-72",
+    "reference_numbers": [
+      72
+    ],
+    "name": "OPERA",
+    "title": "Opera: alleviating hallucination in multi-modal large language models via over-trust penalty and retrospection-allocation",
+    "year": 2024,
+    "venue_as_cited": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2311.17911",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "OPERA 从注意力中的过度信任现象出发施加惩罚与回溯重分配，缓解多模态模型的幻觉输出。",
+    "primary_category": "reasoning",
+    "related_categories": [
+      "monitoring"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§IV-C",
+        "anchor": "#S4.SS3.p2.1.1",
+        "section_title": "IV-C Future Directions ‣ IV How to Monitor Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S4.SS3.p2.1.1"
+      },
+      {
+        "label": "1st item",
+        "anchor": "#S5.I1.i1.p1.1",
+        "section_title": "In V-A1 Detecting Reasoning Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I1.i1.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.3.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.3.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-73",
+    "reference_numbers": [
+      73
+    ],
+    "name": "SAPLMA",
+    "title": "The internal state of an llm knows when it’s lying",
+    "year": 2023,
+    "venue_as_cited": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2304.13734",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "SAPLMA 利用模型内部状态训练真假判断分类器，代表能够读取内部信息的幻觉检测路线。",
+    "primary_category": "reasoning",
+    "related_categories": [
+      "monitoring"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§IV-C",
+        "anchor": "#S4.SS3.p2.1.1",
+        "section_title": "IV-C Future Directions ‣ IV How to Monitor Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S4.SS3.p2.1.1"
+      },
+      {
+        "label": "1st item",
+        "anchor": "#S5.I1.i1.p1.1",
+        "section_title": "In V-A1 Detecting Reasoning Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I1.i1.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.2.4",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.2.4"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-74",
+    "reference_numbers": [
+      74
+    ],
+    "name": "ARC",
+    "title": "ARC: compiling large multi-modal requirement documents into runnable software systems",
+    "year": 2026,
+    "venue_as_cited": "arXiv preprint arXiv:2602.13723",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2602.13723",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "ARC 将大型多模态需求文档转为可运行软件；综述还以其 Git 历史说明检查点和回滚的工程实现背景。",
+    "primary_category": "monitoring",
+    "related_categories": [
+      "resolution"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§IV-C",
+        "anchor": "#S4.SS3.p3.1.1",
+        "section_title": "IV-C Future Directions ‣ IV How to Monitor Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S4.SS3.p3.1.1"
+      },
+      {
+        "label": "1st item",
+        "anchor": "#S7.I3.i1.p1.1.2",
+        "section_title": "In VII-A3 Post-execution Recovery Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I3.i1.p1.1.2"
+      }
+    ],
+    "verification_status": "primary_source_verified_title_variant",
+    "notes": [
+      "同一 arXiv ID 的当前标题为 Compiling Large Multi-Modal Requirement Documents into Runnable Software Systems: From an Agentic Test-Driven Perspective，原文书目标题含 ARC。"
+    ]
+  },
+  {
+    "id": "paper-75",
+    "reference_numbers": [
+      75
+    ],
+    "name": "WebTestPilot",
+    "title": "Webtestpilot: agentic end-to-end web testing against natural language specification by inferring oracles with symbolized gui elements",
+    "year": 2026,
+    "venue_as_cited": "Proceedings of the ACM on Software Engineering",
+    "source_type": "journal_article",
+    "paper_url": "https://arxiv.org/abs/2602.11724",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "WebTestPilot 从自然语言规格与符号化 GUI 元素推导测试判断依据，展示对网页智能体结果进行系统检查的思路。",
+    "primary_category": "monitoring",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§IV-C",
+        "anchor": "#S4.SS3.p4.1.2",
+        "section_title": "IV-C Future Directions ‣ IV How to Monitor Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S4.SS3.p4.1.2"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-76",
+    "reference_numbers": [
+      76
+    ],
+    "name": "LURE",
+    "title": "Analyzing and mitigating object hallucination in large vision-language models",
+    "year": 2024,
+    "venue_as_cited": "The Twelfth International Conference on Learning Representations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2310.00754",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "LURE 分析视觉语言模型的对象幻觉并训练修订器，针对输出进行检测和纠正。",
+    "primary_category": "reasoning",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "2nd item",
+        "anchor": "#S5.I1.i2.p1.1",
+        "section_title": "In V-A1 Detecting Reasoning Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I1.i2.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.5.2",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.5.2"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-77",
+    "reference_numbers": [
+      77
+    ],
+    "name": "Conformal",
+    "title": "Conformal language modeling",
+    "year": 2024,
+    "venue_as_cited": "The Twelfth International Conference on Learning Representations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2306.10193",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Conformal Language Modeling 通过校准与停止规则选择生成集合，研究受统计约束的生成质量控制。",
+    "primary_category": "reasoning",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "2nd item",
+        "anchor": "#S5.I1.i2.p1.1",
+        "section_title": "In V-A1 Detecting Reasoning Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I1.i2.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.6.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.6.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-78",
+    "reference_numbers": [
+      78
+    ],
+    "name": "Debate",
+    "title": "Improving factuality and reasoning in language models through multiagent debate",
+    "year": 2023,
+    "venue_as_cited": "Forty-first International Conference on Machine Learning",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2305.14325",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Multiagent Debate 让多个模型实例反复评议答案，以交叉检查改善事实性与推理；不应把投票一致当作真实正确。",
+    "primary_category": "reasoning",
+    "related_categories": [
+      "resolution"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "3rd item",
+        "anchor": "#S5.I1.i3.p1.1",
+        "section_title": "In V-A1 Detecting Reasoning Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I1.i3.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.7.2",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.7.2"
+      },
+      {
+        "label": "4th item",
+        "anchor": "#S7.I2.i4.p1.1",
+        "section_title": "In VII-A2 In-execution Corrective Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I2.i4.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": [
+      "综述年份为 2023，但 venue 为 Forty-first ICML（2024）；可能混用预印本年与会议年，均按原文保存，不静默统一。"
+    ]
+  },
+  {
+    "id": "paper-79",
+    "reference_numbers": [
+      79
+    ],
+    "name": "CoK",
+    "title": "Chain-of-knowledge: grounding large language models via dynamic knowledge adapting over heterogeneous sources",
+    "year": 2024,
+    "venue_as_cited": "The Twelfth International Conference on Learning Representations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2305.13269",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Chain-of-Knowledge 在推理过程中整合异构外部知识并调整推理链，用外部证据改善回答依据。",
+    "primary_category": "reasoning",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "3rd item",
+        "anchor": "#S5.I1.i3.p1.1",
+        "section_title": "In V-A1 Detecting Reasoning Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I1.i3.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.8.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.8.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-80",
+    "reference_numbers": [
+      80
+    ],
+    "name": "MCP Guardian",
+    "title": "MCP guardian: a security-first layer for safeguarding mcp-based ai system",
+    "year": 2025,
+    "venue_as_cited": "Proceedings of the 6th International Conference on Advanced Natural Language Processing (AdNLP 2025)",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2504.12757",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "MCP Guardian 在 MCP 通信中增加鉴权、限流、日志和检查机制，是围绕工具协议的安全防护路线。",
+    "primary_category": "action",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§V-A2",
+        "anchor": "#S5.SS1.SSS2.p1.1.1",
+        "section_title": "V-A2 Detecting Action Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.SS1.SSS2.p1.1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.10.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.10.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-81",
+    "reference_numbers": [
+      81
+    ],
+    "name": "PI",
+    "title": "Extending context window of large language models via positional interpolation",
+    "year": 2023,
+    "venue_as_cited": "arXiv preprint arXiv:2306.15595",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2306.15595",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Positional Interpolation 通过位置插值扩展上下文窗口；原文将其标为缓解方法，并不把它列作异常检测器。",
+    "primary_category": "memory",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "1st item",
+        "anchor": "#S5.I2.i1.p1.1",
+        "section_title": "In V-A3 Detecting Memory Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I2.i1.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.11.3",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.11.3"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-82",
+    "reference_numbers": [
+      82
+    ],
+    "name": "CoA",
+    "title": "Chain of agents: large language models collaborating on long-context tasks",
+    "year": 2024,
+    "venue_as_cited": "Advances in Neural Information Processing Systems",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2406.02818",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Chain of Agents 让多个工作智能体分块处理长上下文，再由管理智能体汇总，缓解长文本处理限制。",
+    "primary_category": "memory",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "1st item",
+        "anchor": "#S5.I2.i1.p1.1",
+        "section_title": "In V-A3 Detecting Memory Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I2.i1.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.12.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.12.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-83",
+    "reference_numbers": [
+      83
+    ],
+    "name": "LRP4RAG",
+    "title": "LRP4RAG: detecting hallucinations in retrieval-augmented generation via layer-wise relevance propagation",
+    "year": 2024,
+    "venue_as_cited": "arXiv preprint arXiv:2408.15533",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2408.15533",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "LRP4RAG 使用逐层相关性传播的信号分类 RAG 幻觉，原文将它列为检测而非直接纠正方法。",
+    "primary_category": "memory",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "2nd item",
+        "anchor": "#S5.I2.i2.p1.1",
+        "section_title": "In V-A3 Detecting Memory Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I2.i2.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.14.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.14.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-84",
+    "reference_numbers": [
+      84
+    ],
+    "name": "GUARDIAN",
+    "title": "GUARDIAN: safeguarding llm multi-agent collaborations with temporal graph modeling",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2505.19234",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2505.19234",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "GUARDIAN 以时序图刻画多智能体依赖并用重建信号识别异常协作，避免忽视智能体之间的相关性。",
+    "primary_category": "security",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§V-A4",
+        "anchor": "#S5.SS1.SSS4.p1.1",
+        "section_title": "V-A4 Detecting Security Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.SS1.SSS4.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.15.3",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.15.3"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-85",
+    "reference_numbers": [
+      85
+    ],
+    "name": "SpecValidator",
+    "title": "Defective task descriptions in llm-based code generation: detection and analysis",
+    "year": 2026,
+    "venue_as_cited": "arXiv preprint arXiv:2604.24703",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2604.24703",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "SpecValidator 判断代码生成任务描述是否存在缺陷并预测缺陷类型或概率，用于执行前检查输入质量。",
+    "primary_category": "task-specification",
+    "related_categories": [
+      "action"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "1st item",
+        "anchor": "#S5.I3.i1.p1.1.1.1",
+        "section_title": "In V-A5 Detecting Task Specification Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I3.i1.p1.1.1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.17.4",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.17.4"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-86",
+    "reference_numbers": [
+      86
+    ],
+    "name": "Ambig-SWE",
+    "title": "Ambig-swe: interactive agents to overcome underspecificity in software engineering",
+    "year": 2026,
+    "venue_as_cited": "The Fourteenth International Conference on Learning Representations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2502.13069",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Ambig-SWE 把软件工程指令欠明确问题分为识别、提问和利用答复三个环节，评测交互澄清的价值。",
+    "primary_category": "task-specification",
+    "related_categories": [
+      "benchmarks"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "1st item",
+        "anchor": "#S5.I3.i1.p1.1.1.1",
+        "section_title": "In V-A5 Detecting Task Specification Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I3.i1.p1.1.1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.18.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.18.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-87",
+    "reference_numbers": [
+      87
+    ],
+    "name": "CLAMBER",
+    "title": "CLAMBER: a benchmark of identifying and clarifying ambiguous information needs in large language models",
+    "year": 2024,
+    "venue_as_cited": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2405.12063",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "CLAMBER 评测语言模型识别模糊信息需求并提出澄清问题的能力，是任务规范异常的相关基准。",
+    "primary_category": "task-specification",
+    "related_categories": [
+      "benchmarks"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "1st item",
+        "anchor": "#S5.I3.i1.p1.1.1.1",
+        "section_title": "In V-A5 Detecting Task Specification Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I3.i1.p1.1.1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.19.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.19.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-88",
+    "reference_numbers": [
+      88
+    ],
+    "name": "Ask-or-Assume",
+    "title": "Ask or assume? uncertainty-aware clarification-seeking in coding agents",
+    "year": 2026,
+    "venue_as_cited": "arXiv preprint arXiv:2603.26233",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2603.26233",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Ask or Assume? 利用任务与状态中的不确定性决定何时提问澄清，研究编码智能体的执行与询问权衡。",
+    "primary_category": "task-specification",
+    "related_categories": [
+      "resolution"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "2nd item",
+        "anchor": "#S5.I3.i2.p1.1.1.1",
+        "section_title": "In V-A5 Detecting Task Specification Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I3.i2.p1.1.1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.20.2",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.20.2"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-89",
+    "reference_numbers": [
+      89
+    ],
+    "name": "Semantic Entropy",
+    "title": "Semantic uncertainty: linguistic invariances for uncertainty estimation in natural language generation",
+    "year": 2023,
+    "venue_as_cited": "arXiv preprint arXiv:2302.09664",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2302.09664",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Semantic Uncertainty 将语义等价的回答归组估计不确定性；综述借用该信号辅助判断可能的任务歧义。",
+    "primary_category": "task-specification",
+    "related_categories": [
+      "reasoning"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "2nd item",
+        "anchor": "#S5.I3.i2.p1.1.1.1",
+        "section_title": "In V-A5 Detecting Task Specification Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I3.i2.p1.1.1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.21.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.21.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-90",
+    "reference_numbers": [
+      90
+    ],
+    "name": "SelfCheckGPT",
+    "title": "Selfcheckgpt: zero-resource black-box hallucination detection for generative large language models",
+    "year": 2023,
+    "venue_as_cited": "Proceedings of the 2023 conference on empirical methods in natural language processing",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2303.08896",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "SelfCheckGPT 比较多次采样回答的一致性以检测可能的幻觉；一致性信号对任务歧义的使用是综述层面的延伸讨论。",
+    "primary_category": "reasoning",
+    "related_categories": [
+      "task-specification"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "2nd item",
+        "anchor": "#S5.I3.i2.p1.1.1.1",
+        "section_title": "In V-A5 Detecting Task Specification Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I3.i2.p1.1.1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.22.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.22.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-91",
+    "reference_numbers": [
+      91
+    ],
+    "name": "Introspective",
+    "title": "Introspective planning: guiding language-enabled agents to refine their own uncertainty",
+    "year": 2024,
+    "venue_as_cited": "arXiv e-prints",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2402.06529",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Introspective Planning 结合不确定性估计、任务歧义和反馈来改进规划，原文将其归入单步编排问题的处理路线。",
+    "primary_category": "orchestration",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "1st item",
+        "anchor": "#S5.I4.i1.p1.1",
+        "section_title": "In V-A6 Detecting Orchestration Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I4.i1.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.23.3",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.23.3"
+      }
+    ],
+    "verification_status": "primary_source_verified_title_variant",
+    "notes": [
+      "综述标题为 Introspective Planning: Guiding Language-Enabled Agents to Refine Their Own Uncertainty；当前 arXiv 标题为 Introspective Planning: Aligning Robots' Uncertainty with Inherent Task Ambiguity，已核对同作者对应工作。"
+    ]
+  },
+  {
+    "id": "paper-92",
+    "reference_numbers": [
+      92
+    ],
+    "name": "API-bank",
+    "title": "API-bank: a comprehensive benchmark for tool-augmented llms",
+    "year": 2023,
+    "venue_as_cited": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2304.08244",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "API-Bank 提供工具增强对话与 API 调用基准，并探索训练提升工具使用能力；原文表 V 标为缓解而非检测。",
+    "primary_category": "action",
+    "related_categories": [
+      "orchestration",
+      "benchmarks"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "1st item",
+        "anchor": "#S5.I4.i1.p1.1",
+        "section_title": "In V-A6 Detecting Orchestration Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I4.i1.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.24.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.24.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-93",
+    "reference_numbers": [
+      93
+    ],
+    "name": "Reflexion",
+    "title": "Reflexion: language agents with verbal reinforcement learning",
+    "year": 2023,
+    "venue_as_cited": "Advances in Neural Information Processing Systems",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2303.11366",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Reflexion 把执行反馈转为语言反思并保留到后续尝试中，在不更新模型参数的情况下改善行为。",
+    "primary_category": "orchestration",
+    "related_categories": [
+      "resolution",
+      "memory"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "2nd item",
+        "anchor": "#S5.I4.i2.p1.1",
+        "section_title": "In V-A6 Detecting Orchestration Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.I4.i2.p1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.27.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.27.1"
+      },
+      {
+        "label": "2nd item",
+        "anchor": "#S7.I2.i2.p1.1",
+        "section_title": "In VII-A2 In-execution Corrective Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I2.i2.p1.1"
+      },
+      {
+        "label": "2nd item",
+        "anchor": "#S7.I3.i2.p1.1",
+        "section_title": "In VII-A3 Post-execution Recovery Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I3.i2.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-94",
+    "reference_numbers": [
+      94
+    ],
+    "name": "CodeAct",
+    "title": "Executable code actions elicit better llm agents",
+    "year": 2024,
+    "venue_as_cited": "Forty-first International Conference on Machine Learning",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2402.01030",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "CodeAct 将行动表示为可执行代码，以编程语言表达复杂工具操作；原文将其列为多步编排的缓解方法。",
+    "primary_category": "action",
+    "related_categories": [
+      "orchestration"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.28.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.28.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-95",
+    "reference_numbers": [
+      95
+    ],
+    "name": "G-Designer",
+    "title": "G-designer: architecting multi-agent communication topologies via graph neural networks",
+    "year": 2025,
+    "venue_as_cited": "Forty-second International Conference on Machine Learning",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2410.11782",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "G-Designer 用图模型生成任务相关的通信拓扑，减少不必要的通信并改善多智能体协作效率。",
+    "primary_category": "communication",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§V-A7",
+        "anchor": "#S5.SS1.SSS7.p1.1.1",
+        "section_title": "V-A7 Detecting Communication Anomalies ‣ V-A Detection Methods ‣ V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.SS1.SSS7.p1.1.1"
+      },
+      {
+        "label": "TABLE V",
+        "anchor": "#S5.T5.2.1.30.1",
+        "section_title": "In V How to Detect Anomalies in Agent Systems?",
+        "url": "https://arxiv.org/html/2606.01581v2#S5.T5.2.1.30.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-96",
+    "reference_numbers": [
+      96
+    ],
+    "name": "FAMAS",
+    "title": "Who is introducing the failure? automatically attributing failures of multi-agent systems via spectrum analysis",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2509.13782",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2509.13782",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "FAMAS 将轨迹抽象为状态、行动和智能体元组，通过成功/失败差异及可疑度评分定位责任行为。",
+    "primary_category": "root-cause",
+    "related_categories": [
+      "root-cause"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§VI-B1",
+        "anchor": "#S6.SS2.SSS1.p1.1",
+        "section_title": "VI-B1 Trajectory Replay & Spectrum Analysis ‣ VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.SS2.SSS1.p1.1"
+      },
+      {
+        "label": "TABLE VI",
+        "anchor": "#S6.T6.5.2.2.1.1",
+        "section_title": "In VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.T6.5.2.2.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-97",
+    "reference_numbers": [
+      97
+    ],
+    "name": "GraphTracer",
+    "title": "GraphTracer: graph-guided failure tracing in llm agents for robust multi-turn deep search",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2510.10581",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2510.10581",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "GraphTracer 通过信息依赖图追踪上游错误如何传播，适用于多轮深度搜索智能体的失败分析。",
+    "primary_category": "root-cause",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§VI-B2",
+        "anchor": "#S6.SS2.SSS2.p1.1.1",
+        "section_title": "VI-B2 Structured Trace Modeling ‣ VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.SS2.SSS2.p1.1.1"
+      },
+      {
+        "label": "TABLE VI",
+        "anchor": "#S6.T6.5.3.2.1.1",
+        "section_title": "In VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.T6.5.3.2.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-98",
+    "reference_numbers": [
+      98
+    ],
+    "name": "AgenTracer",
+    "title": "AgenTracer: who is inducing failure in the llm agentic systems?",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2509.03312",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2509.03312",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "AgenTracer 利用反事实回放与故障注入构建训练轨迹，训练模型识别责任智能体与关键错误步骤。",
+    "primary_category": "root-cause",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§VI-B2",
+        "anchor": "#S6.SS2.SSS2.p1.1.1",
+        "section_title": "VI-B2 Structured Trace Modeling ‣ VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.SS2.SSS2.p1.1.1"
+      },
+      {
+        "label": "TABLE VI",
+        "anchor": "#S6.T6.5.3.2.1.1",
+        "section_title": "In VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.T6.5.3.2.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-99",
+    "reference_numbers": [
+      99
+    ],
+    "name": "AgentFail",
+    "title": "Diagnosing failure root causes in platform-orchestrated agentic systems: dataset, taxonomy, and benchmark",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2509.23735",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2509.23735",
+    "project_url": "https://github.com/Jenna-Ma/JaWs-AgentFail",
+    "data_url": "https://github.com/Jenna-Ma/JaWs-AgentFail",
+    "summary_zh": "AgentFail 结合平台智能体失败数据、细粒度分类和诊断基准，研究复杂轨迹中的根因识别。",
+    "primary_category": "root-cause",
+    "related_categories": [
+      "benchmarks"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§VI-B3",
+        "anchor": "#S6.SS2.SSS3.p2.1",
+        "section_title": "VI-B3 LLM-based Attribution ‣ VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.SS2.SSS3.p2.1"
+      },
+      {
+        "label": "TABLE VI",
+        "anchor": "#S6.T6.5.4.2.1.1",
+        "section_title": "In VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.T6.5.4.2.1.1"
+      },
+      {
+        "label": "TABLE VIII",
+        "anchor": "#S8.T8.4.5.1.1.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T8.4.5.1.1.1"
+      },
+      {
+        "label": "TABLE IX",
+        "anchor": "#S8.T9.5.1.6.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T9.5.1.6.1"
+      }
+    ],
+    "verification_status": "primary_source_verified_title_variant",
+    "notes": [
+      "原文题为 Diagnosing Failure Root Causes in Platform-Orchestrated Agentic Systems: Dataset, Taxonomy, and Benchmark；该 arXiv ID 当前标题已更新为 Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows。"
+    ]
+  },
+  {
+    "id": "paper-100",
+    "reference_numbers": [
+      100
+    ],
+    "name": null,
+    "title": "Automatic failure attribution and critical step prediction method for multi-agent systems based on causal inference",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2509.08682",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2509.08682",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "基于因果图与反事实推理，将多智能体系统失败关联到责任智能体和关键行动步骤。",
+    "primary_category": "root-cause",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§VI-B2",
+        "anchor": "#S6.SS2.SSS2.p1.1.1",
+        "section_title": "VI-B2 Structured Trace Modeling ‣ VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.SS2.SSS2.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-101",
+    "reference_numbers": [
+      101
+    ],
+    "name": "StepFinder",
+    "title": "StepFinder: a temporal semantic framework for failure attribution in multi-agent systems",
+    "year": 2026,
+    "venue_as_cited": "arXiv preprint arXiv:2606.03467",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2606.03467",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "StepFinder 先用语言模型构造语义特征，再以时序模型捕捉跨步骤依赖，实现步骤级归因。",
+    "primary_category": "root-cause",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§VI-B2",
+        "anchor": "#S6.SS2.SSS2.p1.1.1",
+        "section_title": "VI-B2 Structured Trace Modeling ‣ VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.SS2.SSS2.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-102",
+    "reference_numbers": [
+      102
+    ],
+    "name": "AgentDebug",
+    "title": "Where llm agents fail and how they can learn from failures",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2509.25370",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2509.25370",
+    "project_url": "https://github.com/ulab-uiuc/AgentDebug",
+    "data_url": "https://drive.google.com/drive/folders/1bQe6dQA85pktT63YnKIKJDTVaH3O3Vpu?usp=drive_link",
+    "summary_zh": "该工作提出 AgentErrorTaxonomy、AgentErrorBench 和 AgentDebug，把分类、错误轨迹评测与纠错反馈连接起来。",
+    "primary_category": "root-cause",
+    "related_categories": [
+      "benchmarks",
+      "resolution"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§VI-B3",
+        "anchor": "#S6.SS2.SSS3.p2.1",
+        "section_title": "VI-B3 LLM-based Attribution ‣ VI-B Root Cause Localization Methods ‣ VI How to Locate the Root Cause of Agent System Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S6.SS2.SSS3.p2.1"
+      },
+      {
+        "label": "TABLE VIII",
+        "anchor": "#S8.T8.4.7.1.1.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T8.4.7.1.1.1"
+      },
+      {
+        "label": "TABLE IX",
+        "anchor": "#S8.T9.5.1.8.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T9.5.1.8.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-103",
+    "reference_numbers": [
+      103
+    ],
+    "name": "SWE-agent",
+    "title": "SWE-agent: agent-computer interfaces enable automated software engineering",
+    "year": 2024,
+    "venue_as_cited": "arXiv preprint arXiv:2405.15793",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2405.15793",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "SWE-agent 研究面向编码任务的智能体—计算机接口，说明工具与行动空间设计如何影响执行可靠性。",
+    "primary_category": "action",
+    "related_categories": [
+      "resolution"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "3rd item",
+        "anchor": "#S7.I1.i3.p1.1",
+        "section_title": "In VII-A1 Pre-execution Preventive Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I1.i3.p1.1"
+      },
+      {
+        "label": "§VII-A",
+        "anchor": "#S7.SS1.p1.1.1",
+        "section_title": "VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.SS1.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-105",
+    "reference_numbers": [
+      105
+    ],
+    "name": "Tree of Thoughts",
+    "title": "Tree of thoughts: deliberate problem solving with large language models",
+    "year": 2023,
+    "venue_as_cited": "Advances in Neural Information Processing Systems",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2305.10601",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Tree of Thoughts 显式探索与评估多个思路分支，为执行前规划和备选方案检查提供机制。",
+    "primary_category": "orchestration",
+    "related_categories": [
+      "resolution"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "1st item",
+        "anchor": "#S7.I1.i1.p1.1",
+        "section_title": "In VII-A1 Pre-execution Preventive Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I1.i1.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-106",
+    "reference_numbers": [
+      106
+    ],
+    "name": "Toolformer",
+    "title": "Toolformer: language models can teach themselves to use tools",
+    "year": 2023,
+    "venue_as_cited": "Advances in Neural Information Processing Systems",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2302.04761",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Toolformer 研究模型自学工具调用，说明可用工具和调用接口的设计会影响智能体行动质量。",
+    "primary_category": "action",
+    "related_categories": [
+      "resolution"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "3rd item",
+        "anchor": "#S7.I1.i3.p1.1",
+        "section_title": "In VII-A1 Pre-execution Preventive Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I1.i3.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-107",
+    "reference_numbers": [
+      107
+    ],
+    "name": "Self-Refine",
+    "title": "Self-refine: iterative refinement with self-feedback",
+    "year": 2023,
+    "venue_as_cited": "Advances in Neural Information Processing Systems",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2303.17651",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Self-Refine 让同一语言模型生成反馈并迭代修订输出，是运行时自我纠错的代表方法。",
+    "primary_category": "resolution",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "2nd item",
+        "anchor": "#S7.I2.i2.p1.1",
+        "section_title": "In VII-A2 In-execution Corrective Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I2.i2.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-108",
+    "reference_numbers": [
+      108
+    ],
+    "name": "AgentSpec",
+    "title": "Agentspec: customizable runtime enforcement for safe and reliable llm agents",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2503.18666",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2503.18666",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "AgentSpec 用可定制规则约束运行中的智能体行为，在危险或不合规行动执行前进行拦截。",
+    "primary_category": "security",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "3rd item",
+        "anchor": "#S7.I2.i3.p1.1.1.1",
+        "section_title": "In VII-A2 In-execution Corrective Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I2.i3.p1.1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-109",
+    "reference_numbers": [
+      109
+    ],
+    "name": "Comfrey",
+    "title": "Comfrey: mitigating integration failures in llm-enabled software at run-time",
+    "year": 2026,
+    "venue_as_cited": null,
+    "source_type": "research_paper_unspecified",
+    "paper_url": "https://conf.researchr.org/details/icse-2026/icse-2026-research-track/319/Comfrey-Mitigating-Integration-Failures-in-LLM-enabled-Software-at-Run-Time",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Comfrey 在 LLM 与确定性软件组件之间检查和修复接口不兼容，针对格式、语法等集成失败进行运行时处理。",
+    "primary_category": "resolution",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "3rd item",
+        "anchor": "#S7.I2.i3.p1.1.1.1",
+        "section_title": "In VII-A2 In-execution Corrective Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I2.i3.p1.1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-110",
+    "reference_numbers": [
+      110
+    ],
+    "name": "Self-Consistency",
+    "title": "Self-consistency improves chain of thought reasoning in language models",
+    "year": 2023,
+    "venue_as_cited": "International Conference on Learning Representations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2203.11171",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Self-Consistency 通过采样多条推理路径并汇总答案改善推理可靠性，是冗余执行与结果选择的例子。",
+    "primary_category": "reasoning",
+    "related_categories": [
+      "resolution"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "4th item",
+        "anchor": "#S7.I2.i4.p1.1",
+        "section_title": "In VII-A2 In-execution Corrective Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I2.i4.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-112",
+    "reference_numbers": [
+      112
+    ],
+    "name": "Voyager",
+    "title": "Voyager: an open-ended embodied agent with large language models",
+    "year": 2023,
+    "venue_as_cited": "arXiv preprint arXiv:2305.16291",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2305.16291",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Voyager 在开放环境中积累可复用技能库，支撑综述关于执行后记忆和技能更新的讨论。",
+    "primary_category": "memory",
+    "related_categories": [
+      "resolution"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "2nd item",
+        "anchor": "#S7.I3.i2.p1.1",
+        "section_title": "In VII-A3 Post-execution Recovery Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I3.i2.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-113",
+    "reference_numbers": [
+      113
+    ],
+    "name": "AutoPrompt",
+    "title": "Autoprompt: eliciting knowledge from language models with automatically generated prompts",
+    "year": 2020,
+    "venue_as_cited": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2010.15980",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "AutoPrompt 自动寻找离散提示以激发模型知识，作为长期提示修订与自动优化的相关方法。",
+    "primary_category": "resolution",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "3rd item",
+        "anchor": "#S7.I3.i3.p1.1",
+        "section_title": "In VII-A3 Post-execution Recovery Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I3.i3.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-114",
+    "reference_numbers": [
+      114
+    ],
+    "name": "P-Tuning v2",
+    "title": "P-tuning: prompt tuning can be comparable to fine-tuning universally across scales and tasks",
+    "year": 2022,
+    "venue_as_cited": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2110.07602",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "P-Tuning v2 研究可训练连续提示在不同规模与任务上的适用性，为持久化提示调整提供背景。",
+    "primary_category": "resolution",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "3rd item",
+        "anchor": "#S7.I3.i3.p1.1",
+        "section_title": "In VII-A3 Post-execution Recovery Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I3.i3.p1.1"
+      }
+    ],
+    "verification_status": "primary_source_verified_title_variant",
+    "notes": [
+      "原文简称 P-tuning；当前对应论文标题明确为 P-Tuning v2，阅读时避免与早期 P-Tuning 混淆。"
+    ]
+  },
+  {
+    "id": "paper-115",
+    "reference_numbers": [
+      115
+    ],
+    "name": "DePT",
+    "title": "Dept: decomposed prompt tuning for parameter-efficient fine-tuning",
+    "year": 2024,
+    "venue_as_cited": "The Twelfth International Conference on Learning Representations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2309.05173",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "DePT 将提示调优分解以提高参数效率，属于执行后更新提示或策略的相关优化技术。",
+    "primary_category": "resolution",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "3rd item",
+        "anchor": "#S7.I3.i3.p1.1",
+        "section_title": "In VII-A3 Post-execution Recovery Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I3.i3.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-116",
+    "reference_numbers": [
+      116
+    ],
+    "name": "Promptbreeder",
+    "title": "Promptbreeder: self-referential self-improvement via prompt evolution",
+    "year": 2024,
+    "venue_as_cited": "Proceedings of the 41st International Conference on Machine Learning",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2309.16797",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "Promptbreeder 以演化方式联合优化提示及其变异过程，展示从任务反馈持续改进指令的路线。",
+    "primary_category": "resolution",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "3rd item",
+        "anchor": "#S7.I3.i3.p1.1",
+        "section_title": "In VII-A3 Post-execution Recovery Resolutions ‣ VII-A Resolution Methods ‣ VII How to Resolve the Anomalies?",
+        "url": "https://arxiv.org/html/2606.01581v2#S7.I3.i3.p1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-117",
+    "reference_numbers": [
+      117
+    ],
+    "name": "MAST",
+    "title": "Why do multi-agent llm systems fail?",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2503.13657",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2503.13657",
+    "project_url": "https://github.com/multi-agent-systems-failure-taxonomy/MAST",
+    "data_url": "https://huggingface.co/datasets/mcemri/MAST-Data",
+    "summary_zh": "MAST 对真实多智能体轨迹建立失效分类与标注资源；应使用对应版本的类别数和数据统计。",
+    "primary_category": "benchmarks",
+    "related_categories": [
+      "task-specification",
+      "communication",
+      "termination"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "TABLE VIII",
+        "anchor": "#S8.T8.4.3.1.1.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T8.4.3.1.1.1"
+      },
+      {
+        "label": "TABLE IX",
+        "anchor": "#S8.T9.5.1.4.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T9.5.1.4.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-118",
+    "reference_numbers": [
+      118
+    ],
+    "name": "TRAIL",
+    "title": "TRAIL: trace reasoning and agentic issue localization",
+    "year": 2025,
+    "venue_as_cited": "arXiv preprint arXiv:2505.08638",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2505.08638",
+    "project_url": "https://github.com/patronus-ai/trail-benchmark",
+    "data_url": "https://huggingface.co/datasets/PatronusAI/TRAIL",
+    "summary_zh": "TRAIL 将执行 trace 的推理与问题定位组织为评测任务，关注复杂工具交互中错误的识别和解释。",
+    "primary_category": "benchmarks",
+    "related_categories": [
+      "root-cause"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "TABLE VIII",
+        "anchor": "#S8.T8.4.4.1.1.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T8.4.4.1.1.1"
+      },
+      {
+        "label": "TABLE IX",
+        "anchor": "#S8.T9.5.1.5.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T9.5.1.5.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-119",
+    "reference_numbers": [
+      119
+    ],
+    "name": "AEGIS",
+    "title": "AEGIS: automated error generation and identification for multi-agent systems",
+    "year": 2025,
+    "venue_as_cited": "arXiv e-prints",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2509.14295",
+    "project_url": "https://github.com/kfq20/AEGIS",
+    "data_url": "https://huggingface.co/datasets/Fancylalala/AEGIS",
+    "summary_zh": "AEGIS 从成功轨迹注入可追踪错误，构建具有明确错误标签的数据以训练和评测多智能体失败归因。",
+    "primary_category": "benchmarks",
+    "related_categories": [
+      "root-cause"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "TABLE VIII",
+        "anchor": "#S8.T8.4.6.1.1.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T8.4.6.1.1.1"
+      },
+      {
+        "label": "TABLE IX",
+        "anchor": "#S8.T9.5.1.7.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T9.5.1.7.1"
+      }
+    ],
+    "verification_status": "primary_source_verified_title_variant",
+    "notes": [
+      "原文书目省略完整 arXiv ID，已定位 2509.14295；早期题名以 Identification 结尾，当前 arXiv 标题以 Attribution 结尾。"
+    ]
+  },
+  {
+    "id": "paper-120",
+    "reference_numbers": [
+      120
+    ],
+    "name": "MP-Bench",
+    "title": "Rethinking failure attribution in multi-agent systems: a multi-perspective benchmark and evaluation",
+    "year": 2026,
+    "venue_as_cited": "arXiv preprint arXiv:2603.25001",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2603.25001",
+    "project_url": "https://github.com/yeonjun-in/MP-Bench",
+    "data_url": "https://github.com/adobe-research/multi-agent-eval-bench/tree/main/MP-Bench",
+    "summary_zh": "该多视角基准重新审视失败归因的标注与评价方式，提醒读者归因答案可能依赖观察视角。",
+    "primary_category": "benchmarks",
+    "related_categories": [
+      "root-cause"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "TABLE VIII",
+        "anchor": "#S8.T8.4.8.1.1.1.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T8.4.8.1.1.1.1"
+      },
+      {
+        "label": "TABLE IX",
+        "anchor": "#S8.T9.5.1.9.1.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T9.5.1.9.1.1"
+      },
+      {
+        "label": "§VIII",
+        "anchor": "#S8.p2.1.2",
+        "section_title": "VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.p2.1.2"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-121",
+    "reference_numbers": [
+      121
+    ],
+    "name": "LongRCA Bench",
+    "title": "LongRCA bench: diagnosing responsible roles and root causes in long-horizon agent failures",
+    "year": 2026,
+    "venue_as_cited": null,
+    "source_type": "research_paper_unspecified",
+    "paper_url": "https://arxiv.org/abs/2608.15242",
+    "project_url": "https://longrca-bench.github.io/",
+    "data_url": "https://huggingface.co/datasets/CLoud5-real/longrca-bench",
+    "summary_zh": "LongRCA Bench 面向长程智能体失败，同时考察责任角色与根因诊断，补充长轨迹带来的归因挑战。",
+    "primary_category": "benchmarks",
+    "related_categories": [
+      "root-cause"
+    ],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "TABLE VIII",
+        "anchor": "#S8.T8.4.9.1.1.1.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T8.4.9.1.1.1.1"
+      },
+      {
+        "label": "TABLE IX",
+        "anchor": "#S8.T9.5.1.10.1.1",
+        "section_title": "In VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.T9.5.1.10.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-122",
+    "reference_numbers": [
+      122
+    ],
+    "name": "GAIA",
+    "title": "Gaia: a benchmark for general ai assistants",
+    "year": 2023,
+    "venue_as_cited": "The Twelfth International Conference on Learning Representations",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2311.12983",
+    "project_url": "https://huggingface.co/datasets/gaia-benchmark/GAIA",
+    "data_url": null,
+    "summary_zh": "GAIA 评测通用助手完成现实问题的能力；它是任务环境/基准，不自动提供专门的失败根因标签。",
+    "primary_category": "benchmarks",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§VIII",
+        "anchor": "#S8.p1.1.1",
+        "section_title": "VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": [
+      "综述年份为 2023，但 venue 写 The Twelfth ICLR（2024）；是预印本与会议年份混用，字段按原文保留。"
+    ]
+  },
+  {
+    "id": "paper-123",
+    "reference_numbers": [
+      123
+    ],
+    "name": "ALFWorld",
+    "title": "Alfworld: aligning text and embodied environments for interactive learning",
+    "year": 2020,
+    "venue_as_cited": "arXiv preprint arXiv:2010.03768",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2010.03768",
+    "project_url": "https://github.com/alfworld/alfworld",
+    "data_url": null,
+    "summary_zh": "ALFWorld 将文本与具身家庭任务对齐，常用于生成和分析多步智能体执行轨迹。",
+    "primary_category": "benchmarks",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§VIII",
+        "anchor": "#S8.p1.1.1",
+        "section_title": "VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-124",
+    "reference_numbers": [
+      124
+    ],
+    "name": "WebShop",
+    "title": "Webshop: towards scalable real-world web interaction with grounded language agents",
+    "year": 2022,
+    "venue_as_cited": "Advances in Neural Information Processing Systems",
+    "source_type": "conference_paper",
+    "paper_url": "https://arxiv.org/abs/2207.01206",
+    "project_url": "https://github.com/princeton-nlp/WebShop",
+    "data_url": null,
+    "summary_zh": "WebShop 提供基于网页购物的交互任务，可作为工具使用、规划和错误轨迹采集的环境。",
+    "primary_category": "benchmarks",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§VIII",
+        "anchor": "#S8.p1.1.1",
+        "section_title": "VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.p1.1.1"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  },
+  {
+    "id": "paper-125",
+    "reference_numbers": [
+      125
+    ],
+    "name": "SpecOps",
+    "title": "Specops: a fully automated ai agent testing framework in real-world gui environments",
+    "year": 2026,
+    "venue_as_cited": "arXiv preprint arXiv:2603.10268",
+    "source_type": "preprint",
+    "paper_url": "https://arxiv.org/abs/2603.10268",
+    "project_url": null,
+    "data_url": null,
+    "summary_zh": "SpecOps 从任务规格出发自动测试真实 GUI 环境中的智能体，补充以 trace 离线归因为主的评测方式。",
+    "primary_category": "benchmarks",
+    "related_categories": [],
+    "classification_basis": "editorial_navigation_from_survey_contexts; formal method categories remain in detection-methods.json",
+    "survey_contexts": [
+      {
+        "label": "§VIII",
+        "anchor": "#S8.p1.1.2",
+        "section_title": "VIII Datasets and Benchmarks for AgentOps",
+        "url": "https://arxiv.org/html/2606.01581v2#S8.p1.1.2"
+      }
+    ],
+    "verification_status": "primary_title_verified",
+    "notes": []
+  }
+]

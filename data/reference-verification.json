@@ -1,0 +1,3430 @@
+{
+  "source_version": "arXiv:2606.01581v2",
+  "checked_on": "2026-09-09",
+  "total_reference_entries": 125,
+  "unique_work_warning": "125 为原文条目数，不等于125篇不同学术论文；[16]/[104] 重复，[31]/[117] 相关版本，且含网站和工具文档。",
+  "counts_by_status": {
+    "primary_title_verified": 90,
+    "primary_identity_verified": 25,
+    "source_located_access_limited": 5,
+    "primary_source_verified_title_variant": 5
+  },
+  "counts_by_type": {
+    "preprint": 38,
+    "model_card": 1,
+    "research_paper_unspecified": 4,
+    "conference_paper": 48,
+    "journal_article": 8,
+    "tool_documentation": 21,
+    "blog": 3,
+    "doctoral_thesis": 1,
+    "whitepaper": 1
+  },
+  "scope": "所有原文条目逐条保留；原始链接/标识符与补充链接区分；只将实际打开并匹配的原始页面标为已核验标题或身份。",
+  "items": [
+    {
+      "number": 1,
+      "url": "https://arxiv.org/abs/2501.12948",
+      "primary_title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2501.12948",
+          "resolved_url": "https://arxiv.org/abs/2501.12948",
+          "page_title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+          "accessible": true,
+          "authors_observed": [
+            "DeepSeek-AI",
+            "Daya Guo",
+            "Dejian Yang",
+            "Haowei Zhang",
+            "Junxiao Song",
+            "Peiyi Wang",
+            "Qihao Zhu",
+            "Runxin Xu",
+            "Ruoyu Zhang",
+            "Shirong Ma",
+            "Xiao Bi",
+            "Xiaokang Zhang",
+            "Xingkai Yu",
+            "Yu Wu"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "当前 arXiv 作者名单以 DeepSeek-AI 开头，且作者排序与综述所列不同；保留综述作者字段，不把缩略书目作为完整官方作者表。"
+      ]
+    },
+    {
+      "number": 2,
+      "url": "https://www.anthropic.com/news/claude-3-family",
+      "primary_title": "Introducing the next generation of Claude \\ Anthropic",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://www.anthropic.com/news/claude-3-family",
+          "resolved_url": "https://www.anthropic.com/news/claude-3-family",
+          "page_title": "Introducing the next generation of Claude \\ Anthropic",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 3,
+      "url": "https://arxiv.org/abs/2310.10436",
+      "primary_title": "EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2310.10436",
+          "resolved_url": "https://arxiv.org/abs/2310.10436",
+          "page_title": "EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities",
+          "accessible": true,
+          "authors_observed": [
+            "Nian Li",
+            "Chen Gao",
+            "Mingyu Li",
+            "Yong Li",
+            "Qingmin Liao"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 4,
+      "url": "https://arxiv.org/abs/2307.16789",
+      "primary_title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2307.16789",
+          "resolved_url": "https://arxiv.org/abs/2307.16789",
+          "page_title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 5,
+      "url": "https://arxiv.org/abs/2502.08224",
+      "primary_title": "Flow-of-Action: SOP Enhanced LLM-Based Multi-Agent System for Root Cause Analysis",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2502.08224",
+          "resolved_url": "https://arxiv.org/abs/2502.08224",
+          "page_title": "Flow-of-Action: SOP Enhanced LLM-Based Multi-Agent System for Root Cause Analysis",
+          "accessible": true,
+          "authors_observed": [
+            "Changhua Pei",
+            "Zexin Wang",
+            "Fengrui Liu",
+            "Zeyan Li",
+            "Yang Liu",
+            "Xiao He",
+            "Rong Kang",
+            "Tieying Zhang",
+            "Jianjun Chen",
+            "Jianhui Li",
+            "Gaogang Xie",
+            "Dan Pei"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 6,
+      "url": "https://arxiv.org/abs/2308.16505",
+      "primary_title": "Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2308.16505",
+          "resolved_url": "https://arxiv.org/abs/2308.16505",
+          "page_title": "Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations",
+          "accessible": true,
+          "authors_observed": [
+            "Xu Huang",
+            "Jianxun Lian",
+            "Yuxuan Lei",
+            "Jing Yao",
+            "Defu Lian",
+            "Xing Xie"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 7,
+      "url": "https://arxiv.org/abs/2605.26563",
+      "primary_title": "TrajAudit: Automated Failure Diagnosis for Agentic Coding Systems",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2605.26563",
+          "resolved_url": "https://arxiv.org/abs/2605.26563",
+          "page_title": "TrajAudit: Automated Failure Diagnosis for Agentic Coding Systems",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 8,
+      "url": "https://arxiv.org/abs/2401.03568",
+      "primary_title": "Agent AI: Surveying the Horizons of Multimodal Interaction",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2401.03568",
+          "resolved_url": "https://arxiv.org/abs/2401.03568",
+          "page_title": "Agent AI: Surveying the Horizons of Multimodal Interaction",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 9,
+      "url": "https://arxiv.org/abs/2403.16527",
+      "primary_title": "Hallucination Detection in Foundation Models for Decision-Making: A Flexible Definition and Review of the State of the Art",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2403.16527",
+          "resolved_url": "https://arxiv.org/abs/2403.16527",
+          "page_title": "Hallucination Detection in Foundation Models for Decision-Making: A Flexible Definition and Review of the State of the Art",
+          "accessible": true,
+          "authors_observed": [
+            "Neeloy Chakraborty",
+            "Melkior Ornik",
+            "Katherine Driggs-Campbell"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 10,
+      "url": "https://arxiv.org/abs/2406.02630",
+      "primary_title": "AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2406.02630",
+          "resolved_url": "https://arxiv.org/abs/2406.02630",
+          "page_title": "AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 11,
+      "url": "https://arxiv.org/abs/2503.23434",
+      "primary_title": "Towards Trustworthy GUI Agents: A Survey",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2503.23434",
+          "resolved_url": "https://arxiv.org/abs/2503.23434",
+          "page_title": "Towards Trustworthy GUI Agents: A Survey",
+          "accessible": true,
+          "authors_observed": [
+            "Yucheng Shi",
+            "Wenhao Yu",
+            "Jingyuan Huang",
+            "Wenlin Yao",
+            "Wenhu Chen",
+            "Ninghao Liu"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "当前 arXiv 作者列表包含 Jingyuan Huang，综述书目未列；作者字段按综述保留。"
+      ]
+    },
+    {
+      "number": 12,
+      "url": "https://arxiv.org/abs/2505.00212",
+      "primary_title": "Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2505.00212",
+          "resolved_url": "https://arxiv.org/abs/2505.00212",
+          "page_title": "Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems",
+          "accessible": true,
+          "authors_observed": [
+            "Shaokun Zhang",
+            "Ming Yin",
+            "Jieyu Zhang",
+            "Jiale Liu",
+            "Zhiguang Han",
+            "Jingyang Zhang",
+            "Beibin Li",
+            "Chi Wang",
+            "Huazheng Wang",
+            "Yiran Chen",
+            "Qingyun Wu"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 13,
+      "url": "https://arxiv.org/abs/2510.11977",
+      "primary_title": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2510.11977",
+          "resolved_url": "https://arxiv.org/abs/2510.11977",
+          "page_title": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
+          "accessible": true,
+          "authors_observed": [
+            "Sayash Kapoor",
+            "Benedikt Stroebl",
+            "Peter Kirgis",
+            "Nitya Nadgir",
+            "Zachary S Siegel",
+            "Boyi Wei",
+            "Tianci Xue",
+            "Ziru Chen",
+            "Felix Chen",
+            "Saiteja Utpala",
+            "Franck Ndzomga",
+            "Dheeraj Oruganty",
+            "Sophie Luskin",
+            "Kangheng Liu",
+            "Botao Yu",
+            "Amit Arora",
+            "Dongyoon Hahm",
+            "Harsh Trivedi",
+            "Huan Sun",
+            "Juyong Lee",
+            "Tengjun Jin",
+            "Yifan Mai",
+            "Yifei Zhou",
+            "Yuxuan Zhu",
+            "Rishi Bommasani",
+            "Daniel Kang",
+            "Dawn Song",
+            "Peter Henderson",
+            "Yu Su",
+            "Percy Liang",
+            "Arvind Narayanan"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 14,
+      "url": "https://arxiv.org/abs/2210.03629",
+      "primary_title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2210.03629",
+          "resolved_url": "https://arxiv.org/abs/2210.03629",
+          "page_title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "accessible": true,
+          "authors_observed": [
+            "Shunyu Yao",
+            "Jeffrey Zhao",
+            "Dian Yu",
+            "Nan Du",
+            "Izhak Shafran",
+            "Karthik Narasimhan",
+            "Yuan Cao"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 15,
+      "url": "https://arxiv.org/abs/2109.01652",
+      "primary_title": "Finetuned Language Models Are Zero-Shot Learners",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2109.01652",
+          "resolved_url": "https://arxiv.org/abs/2109.01652",
+          "page_title": "Finetuned Language Models Are Zero-Shot Learners",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 16,
+      "url": "https://arxiv.org/abs/2201.11903",
+      "primary_title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2201.11903",
+          "resolved_url": "https://arxiv.org/abs/2201.11903",
+          "page_title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "与 [104] 为同一篇 Chain-of-Thought 论文，两个原始编号均保留；统计独立工作时应合并。"
+      ]
+    },
+    {
+      "number": 17,
+      "url": "https://arxiv.org/abs/2309.05922",
+      "primary_title": "A Survey of Hallucination in Large Foundation Models",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2309.05922",
+          "resolved_url": "https://arxiv.org/abs/2309.05922",
+          "page_title": "A Survey of Hallucination in Large Foundation Models",
+          "accessible": true,
+          "authors_observed": [
+            "Vipula Rawte",
+            "Amit Sheth",
+            "Amitava Das"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 18,
+      "url": "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000417",
+      "primary_title": "Peer review of GPT-4 technical report and systems card | PLOS Digital Health",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000417",
+          "resolved_url": "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000417",
+          "page_title": "Peer review of GPT-4 technical report and systems card | PLOS Digital Health",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 19,
+      "url": "https://arxiv.org/abs/2312.07000",
+      "primary_title": "Alignment for Honesty",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2312.07000",
+          "resolved_url": "https://arxiv.org/abs/2312.07000",
+          "page_title": "Alignment for Honesty",
+          "accessible": true,
+          "authors_observed": [
+            "Yuqing Yang",
+            "Ethan Chern",
+            "Xipeng Qiu",
+            "Graham Neubig",
+            "Pengfei Liu"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 20,
+      "url": "https://openreview.net/forum?id=LNxVGPedFW",
+      "primary_title": null,
+      "verification": {
+        "status": "source_located_access_limited",
+        "label_zh": "已定位来源，访问/核验受限",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://openreview.net/forum?id=LNxVGPedFW",
+          "resolved_url": "https://openreview.net/forum?id=LNxVGPedFW",
+          "page_title": "Forum | OpenReview",
+          "accessible": false,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": "已从作者维护项目与 OpenReview 论文索引定位；直接 OpenReview 页面未返回论文内容。"
+      },
+      "notes": [
+        "原文未写来源且年份为 2025；作者项目仓库现给出 ACM Computing Surveys 2026 及 DOI 10.1145/3788284。本目录保留原文元数据，出版信息应另核。"
+      ]
+    },
+    {
+      "number": 21,
+      "url": "https://aclanthology.org/2025.coling-main.39/",
+      "primary_title": "The Dark Side of Function Calling: Pathways to Jailbreaking Large Language Models - ACL Anthology",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://aclanthology.org/2025.coling-main.39/",
+          "resolved_url": "https://aclanthology.org/2025.coling-main.39/",
+          "page_title": "The Dark Side of Function Calling: Pathways to Jailbreaking Large Language Models - ACL Anthology",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "原文年份误写为 20242025；ACL Anthology 的 COLING 2025 页面支持 2025，规范化 year 改为 2025，year_as_cited 保留原值。"
+      ]
+    },
+    {
+      "number": 22,
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "primary_title": "GitHub - Tencent/AI-Infra-Guard: A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation. · GitHub",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://github.com/Tencent/AI-Infra-Guard",
+          "resolved_url": "https://github.com/Tencent/AI-Infra-Guard",
+          "page_title": "GitHub - Tencent/AI-Infra-Guard: A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation. · GitHub",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 23,
+      "url": "https://arxiv.org/abs/2307.03172",
+      "primary_title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2307.03172",
+          "resolved_url": "https://arxiv.org/abs/2307.03172",
+          "page_title": "Lost in the Middle: How Language Models Use Long Contexts",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 24,
+      "url": "https://arxiv.org/abs/2506.08184",
+      "primary_title": "Unable to Forget: Proactive Interference Reveals Working Memory Limits in LLMs Beyond Context Length",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2506.08184",
+          "resolved_url": "https://arxiv.org/abs/2506.08184",
+          "page_title": "Unable to Forget: Proactive Interference Reveals Working Memory Limits in LLMs Beyond Context Length",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 25,
+      "url": "https://arxiv.org/abs/2504.04062",
+      "primary_title": "QE-RAG: A Robust Retrieval-Augmented Generation Benchmark for Query Entry Errors",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2504.04062",
+          "resolved_url": "https://arxiv.org/abs/2504.04062",
+          "page_title": "QE-RAG: A Robust Retrieval-Augmented Generation Benchmark for Query Entry Errors",
+          "accessible": true,
+          "authors_observed": [
+            "Kepu Zhang",
+            "Zhongxiang Sun",
+            "Weijie Yu",
+            "Xiaoxue Zang",
+            "Kai Zheng",
+            "Yang Song",
+            "Han Li",
+            "Jun Xu"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 26,
+      "url": "https://arxiv.org/abs/2410.07176",
+      "primary_title": "Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2410.07176",
+          "resolved_url": "https://arxiv.org/abs/2410.07176",
+          "page_title": "Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models",
+          "accessible": true,
+          "authors_observed": [
+            "Fei Wang",
+            "Xingchen Wan",
+            "Ruoxi Sun",
+            "Jiefeng Chen",
+            "Sercan Ö. Arık"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 27,
+      "url": "https://arxiv.org/abs/2410.11414",
+      "primary_title": "ReDeEP: Detecting Hallucination in Retrieval-Augmented Generation via Mechanistic Interpretability",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2410.11414",
+          "resolved_url": "https://arxiv.org/abs/2410.11414",
+          "page_title": "ReDeEP: Detecting Hallucination in Retrieval-Augmented Generation via Mechanistic Interpretability",
+          "accessible": true,
+          "authors_observed": [
+            "Zhongxiang Sun",
+            "Xiaoxue Zang",
+            "Kai Zheng",
+            "Yang Song",
+            "Jun Xu",
+            "Xiao Zhang",
+            "Weijie Yu",
+            "Yang Song",
+            "Han Li"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "当前 arXiv 元数据将 Yang Song 出现两次，综述仅列一次；不据此静默改写作者表。ReDeEP 是检测方法，AARF 是同文提出的缓解方法。"
+      ]
+    },
+    {
+      "number": 28,
+      "url": "https://arxiv.org/abs/2309.01431",
+      "primary_title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2309.01431",
+          "resolved_url": "https://arxiv.org/abs/2309.01431",
+          "page_title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+          "accessible": true,
+          "authors_observed": [
+            "Jiawei Chen",
+            "Hongyu Lin",
+            "Xianpei Han",
+            "Le Sun"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 29,
+      "url": "https://medium.com/@sanjeevseengh/emergent-behavior-in-multi-agent-systems-how-complex-behaviors-arise-from-simple-agent-0e4503b376ce",
+      "primary_title": "Medium",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://medium.com/@sanjeevseengh/emergent-behavior-in-multi-agent-systems-how-complex-behaviors-arise-from-simple-agent-0e4503b376ce",
+          "resolved_url": "https://medium.com/@sanjeevseengh/emergent-behavior-in-multi-agent-systems-how-complex-behaviors-arise-from-simple-agent-0e4503b376ce",
+          "page_title": "Medium",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 30,
+      "url": "https://arxiv.org/abs/2410.02644",
+      "primary_title": "Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2410.02644",
+          "resolved_url": "https://arxiv.org/abs/2410.02644",
+          "page_title": "Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 31,
+      "url": "https://openreview.net/forum?id=wM521FqPvI",
+      "primary_title": null,
+      "verification": {
+        "status": "source_located_access_limited",
+        "label_zh": "已定位来源，访问/核验受限",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://openreview.net/forum?id=wM521FqPvI",
+          "resolved_url": "https://openreview.net/challenge?redirect=/forum?id%3DwM521FqPvI",
+          "page_title": "Verifying your browser | OpenReview",
+          "accessible": false,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": "已定位对应工作坊论文入口；OpenReview 返回浏览器验证页，不能声称该入口已核验全文。"
+      },
+      "notes": [
+        "保留 ICLR 2025 工作坊版本链接；与 [117] 研究团队和主题相关但标题、第一作者及版本内容有差异，不能直接当作同一版本替换。OpenReview 本次返回浏览器验证页。"
+      ]
+    },
+    {
+      "number": 32,
+      "url": "https://arxiv.org/abs/2408.04514",
+      "primary_title": "Emergence in Multi-Agent Systems: A Safety Perspective",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2408.04514",
+          "resolved_url": "https://arxiv.org/abs/2408.04514",
+          "page_title": "Emergence in Multi-Agent Systems: A Safety Perspective",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 33,
+      "url": "https://arxiv.org/abs/2505.24201",
+      "primary_title": "SentinelAgent: Graph-based Anomaly Detection in Multi-Agent Systems",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2505.24201",
+          "resolved_url": "https://arxiv.org/abs/2505.24201",
+          "page_title": "SentinelAgent: Graph-based Anomaly Detection in Multi-Agent Systems",
+          "accessible": true,
+          "authors_observed": [
+            "Xu He",
+            "Di Wu",
+            "Yan Zhai",
+            "Kun Sun"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 34,
+      "url": "https://ir.soken.ac.jp/records/865",
+      "primary_title": null,
+      "verification": {
+        "status": "source_located_access_limited",
+        "label_zh": "已定位来源，访问/核验受限",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://ir.soken.ac.jp/records/865",
+          "resolved_url": "https://ir.soken.ac.jp/records/865",
+          "page_title": "Internal Error ()",
+          "accessible": false,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": "已定位总研大学位论文库记录及 PDF；记录页读取失败。"
+      },
+      "notes": []
+    },
+    {
+      "number": 35,
+      "url": "https://www.pondhouse-data.com/blog/high-quality-ai-agent-systems",
+      "primary_title": "Building High-Quality AI Agent Systems: Best Practices",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://www.pondhouse-data.com/blog/high-quality-ai-agent-systems",
+          "resolved_url": "https://www.pondhouse-data.com/blog/high-quality-ai-agent-systems",
+          "page_title": "Building High-Quality AI Agent Systems: Best Practices",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 36,
+      "url": "https://arxiv.org/abs/2504.06614",
+      "primary_title": "AgentFM: Role-Aware Failure Management for Distributed Databases with LLM-Driven Multi-Agents",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2504.06614",
+          "resolved_url": "https://arxiv.org/abs/2504.06614",
+          "page_title": "AgentFM: Role-Aware Failure Management for Distributed Databases with LLM-Driven Multi-Agents",
+          "accessible": true,
+          "authors_observed": [
+            "Lingzhe Zhang",
+            "Yunpeng Zhai",
+            "Tong Jia",
+            "Xiaosong Huang",
+            "Chiming Duan",
+            "Ying Li"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 37,
+      "url": "https://doi.org/10.1007/s44336-024-00009-2",
+      "primary_title": "A survey on LLM-based multi-agent systems: workflow, infrastructure, and challenges | Vicinagearth | Springer Nature Link",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://doi.org/10.1007/s44336-024-00009-2",
+          "resolved_url": "https://link.springer.com/article/10.1007/s44336-024-00009-2",
+          "page_title": "A survey on LLM-based multi-agent systems: workflow, infrastructure, and challenges | Vicinagearth | Springer Nature Link",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 38,
+      "url": "https://arxiv.org/abs/2308.08155",
+      "primary_title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2308.08155",
+          "resolved_url": "https://arxiv.org/abs/2308.08155",
+          "page_title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+          "accessible": true,
+          "authors_observed": [
+            "Qingyun Wu",
+            "Gagan Bansal",
+            "Jieyu Zhang",
+            "Yiran Wu",
+            "Beibin Li",
+            "Erkang Zhu",
+            "Li Jiang",
+            "Xiaoyun Zhang",
+            "Shaokun Zhang",
+            "Jiale Liu",
+            "Ahmed Hassan Awadallah",
+            "Ryen W White",
+            "Doug Burger",
+            "Chi Wang"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 39,
+      "url": "https://arxiv.org/abs/2303.17760",
+      "primary_title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2303.17760",
+          "resolved_url": "https://arxiv.org/abs/2303.17760",
+          "page_title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society",
+          "accessible": true,
+          "authors_observed": [
+            "Guohao Li",
+            "Hasan Abed Al Kader Hammoud",
+            "Hani Itani",
+            "Dmitrii Khizbullin",
+            "Bernard Ghanem"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 40,
+      "url": "https://galileo.ai/blog/real-time-anomaly-detection-multi-agent-ai",
+      "primary_title": "Real-Time Anomaly Detection for Multi-Agent AI Systems | Galileo",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://galileo.ai/blog/real-time-anomaly-detection-multi-agent-ai",
+          "resolved_url": "https://galileo.ai/blog/real-time-anomaly-detection-multi-agent-ai",
+          "page_title": "Real-Time Anomaly Detection for Multi-Agent AI Systems | Galileo",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 41,
+      "url": "https://arxiv.org/abs/2410.02506",
+      "primary_title": "Cut the Crap: An Economical Communication Pipeline for LLM-based Multi-Agent Systems",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2410.02506",
+          "resolved_url": "https://arxiv.org/abs/2410.02506",
+          "page_title": "Cut the Crap: An Economical Communication Pipeline for LLM-based Multi-Agent Systems",
+          "accessible": true,
+          "authors_observed": [
+            "Guibin Zhang",
+            "Yanwei Yue",
+            "Zhixun Li",
+            "Sukwon Yun",
+            "Guancheng Wan",
+            "Kun Wang",
+            "Dawei Cheng",
+            "Jeffrey Xu Yu",
+            "Tianlong Chen"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 42,
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/04/24/new-whitepaper-outlines-the-taxonomy-of-failure-modes-in-ai-agents/",
+      "primary_title": "New whitepaper outlines the taxonomy of failure modes in AI agents | Microsoft Security Blog",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://www.microsoft.com/en-us/security/blog/2025/04/24/new-whitepaper-outlines-the-taxonomy-of-failure-modes-in-ai-agents/",
+          "resolved_url": "https://www.microsoft.com/en-us/security/blog/2025/04/24/new-whitepaper-outlines-the-taxonomy-of-failure-modes-in-ai-agents/",
+          "page_title": "New whitepaper outlines the taxonomy of failure modes in AI agents | Microsoft Security Blog",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 43,
+      "url": "https://arxiv.org/abs/2405.05955",
+      "primary_title": "Smurfs: Multi-Agent System using Context-Efficient DFSDT for Tool Planning",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2405.05955",
+          "resolved_url": "https://arxiv.org/abs/2405.05955",
+          "page_title": "Smurfs: Multi-Agent System using Context-Efficient DFSDT for Tool Planning",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 44,
+      "url": "https://arxiv.org/abs/2408.02248",
+      "primary_title": "ReDel: A Toolkit for LLM-Powered Recursive Multi-Agent Systems",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2408.02248",
+          "resolved_url": "https://arxiv.org/abs/2408.02248",
+          "page_title": "ReDel: A Toolkit for LLM-Powered Recursive Multi-Agent Systems",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 45,
+      "url": "https://arxiv.org/abs/2504.07992",
+      "primary_title": "'Neural howlround' in large language models: a self-reinforcing bias phenomenon, and a dynamic attenuation solution",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2504.07992",
+          "resolved_url": "https://arxiv.org/abs/2504.07992",
+          "page_title": "'Neural howlround' in large language models: a self-reinforcing bias phenomenon, and a dynamic attenuation solution",
+          "accessible": true,
+          "authors_observed": [
+            "Seth Drake"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 46,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-18612-2_14",
+      "primary_title": "DevOps: A Definition and Perceived Adoption Impediments | Springer Nature Link",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://link.springer.com/chapter/10.1007/978-3-319-18612-2_14",
+          "resolved_url": "https://link.springer.com/chapter/10.1007/978-3-319-18612-2_14",
+          "page_title": "DevOps: A Definition and Perceived Adoption Impediments | Springer Nature Link",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 47,
+      "url": "https://arxiv.org/abs/2304.04661",
+      "primary_title": "AI for IT Operations (AIOps) on Cloud Platforms: Reviews, Opportunities and Challenges",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2304.04661",
+          "resolved_url": "https://arxiv.org/abs/2304.04661",
+          "page_title": "AI for IT Operations (AIOps) on Cloud Platforms: Reviews, Opportunities and Challenges",
+          "accessible": true,
+          "authors_observed": [
+            "Qian Cheng",
+            "Doyen Sahoo",
+            "Amrita Saha",
+            "Wenzhuo Yang",
+            "Chenghao Liu",
+            "Gerald Woo",
+            "Manpreet Singh",
+            "Silvio Saverese",
+            "Steven C. H. Hoi"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 48,
+      "url": "https://www.mdpi.com/2078-2489/16/2/87",
+      "primary_title": null,
+      "verification": {
+        "status": "source_located_access_limited",
+        "label_zh": "已定位来源，访问/核验受限",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://www.mdpi.com/2078-2489/16/2/87",
+          "resolved_url": "https://www.mdpi.com/2078-2489/16/2/87",
+          "page_title": "Internal Error ()",
+          "accessible": false,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": "已定位 MDPI 官方期刊页；本次访问返回 429，保留来源但不声称正文已核验。"
+      },
+      "notes": []
+    },
+    {
+      "number": 49,
+      "url": "https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-agentic-operations-agenticops.html",
+      "primary_title": "What is agentic operations (AgenticOps)? - Cisco",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-agentic-operations-agenticops.html",
+          "resolved_url": "https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-agentic-operations-agenticops.html",
+          "page_title": "What is agentic operations (AgenticOps)? - Cisco",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 50,
+      "url": "https://opentelemetry.io",
+      "primary_title": "OpenTelemetry",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://opentelemetry.io",
+          "resolved_url": "https://opentelemetry.io",
+          "page_title": "OpenTelemetry",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 51,
+      "url": "https://arxiv.org/abs/2411.05285",
+      "primary_title": "AgentOps: Enabling Observability of LLM Agents",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2411.05285",
+          "resolved_url": "https://arxiv.org/abs/2411.05285",
+          "page_title": "AgentOps: Enabling Observability of LLM Agents",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 52,
+      "url": "https://arxiv.org/abs/2601.06456",
+      "primary_title": "Architecting AgentOps Needs CHANGE",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2601.06456",
+          "resolved_url": "https://arxiv.org/abs/2601.06456",
+          "page_title": "Architecting AgentOps Needs CHANGE",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 53,
+      "url": "https://arxiv.org/abs/2507.11277",
+      "primary_title": "Taming Uncertainty via Automation: Observing, Analyzing, and Optimizing Agentic AI Systems",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2507.11277",
+          "resolved_url": "https://arxiv.org/abs/2507.11277",
+          "page_title": "Taming Uncertainty via Automation: Observing, Analyzing, and Optimizing Agentic AI Systems",
+          "accessible": true,
+          "authors_observed": [
+            "Dany Moshkovich",
+            "Sergey Zeltyn"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 54,
+      "url": "https://github.com/langdb/ai-gateway",
+      "primary_title": "GitHub - vllora/vllora: Debug your AI agents · GitHub",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://github.com/langdb/ai-gateway",
+          "resolved_url": "https://github.com/vllora/vllora",
+          "page_title": "GitHub - vllora/vllora: Debug your AI agents · GitHub",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "原始链接 https://github.com/langdb/ai-gateway 当前重定向到 https://github.com/vllora/vllora；现项目名称与综述 LangDB 标签不同。"
+      ]
+    },
+    {
+      "number": 55,
+      "url": "https://github.com/langfuse/langfuse",
+      "primary_title": "GitHub - langfuse/langfuse: 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 · GitHub",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://github.com/langfuse/langfuse",
+          "resolved_url": "https://github.com/langfuse/langfuse",
+          "page_title": "GitHub - langfuse/langfuse: 🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 · GitHub",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 56,
+      "url": "https://mlflow.org/genai",
+      "primary_title": "Agent & LLM Engineering | MLflow AI Platform",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://mlflow.org/genai",
+          "resolved_url": "https://mlflow.org/genai",
+          "page_title": "Agent & LLM Engineering | MLflow AI Platform",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 57,
+      "url": "https://github.com/Helicone/helicone",
+      "primary_title": "GitHub - Helicone/helicone: 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓 · GitHub",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://github.com/Helicone/helicone",
+          "resolved_url": "https://github.com/Helicone/helicone",
+          "page_title": "GitHub - Helicone/helicone: 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓 · GitHub",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 58,
+      "url": "https://github.com/langwatch",
+      "primary_title": "LangWatch · GitHub",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://github.com/langwatch",
+          "resolved_url": "https://github.com/langwatch",
+          "page_title": "LangWatch · GitHub",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 59,
+      "url": "https://phoenix.arize.com/llamatrace/",
+      "primary_title": "Llamatrace - Phoenix",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://phoenix.arize.com/llamatrace/",
+          "resolved_url": "https://phoenix.arize.com/llamatrace/",
+          "page_title": "Llamatrace - Phoenix",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "LlamaTrace 基于 Phoenix，和 [61] 存在产品/实现关联；监控工具数量不应直接视为独立技术栈数量。"
+      ]
+    },
+    {
+      "number": 60,
+      "url": "https://github.com/traceloop/openllmetry",
+      "primary_title": "GitHub - traceloop/openllmetry: Open-source observability for your GenAI or LLM application, based on OpenTelemetry · GitHub",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://github.com/traceloop/openllmetry",
+          "resolved_url": "https://github.com/traceloop/openllmetry",
+          "page_title": "GitHub - traceloop/openllmetry: Open-source observability for your GenAI or LLM application, based on OpenTelemetry · GitHub",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 61,
+      "url": "https://phoenix.arize.com/",
+      "primary_title": "Phoenix - Arize AI",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://phoenix.arize.com/",
+          "resolved_url": "https://arize.com/phoenix/",
+          "page_title": "Phoenix - Arize AI",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 62,
+      "url": "https://www.literalai.com/",
+      "primary_title": null,
+      "verification": {
+        "status": "source_located_access_limited",
+        "label_zh": "已定位来源，访问/核验受限",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://www.literalai.com/",
+          "resolved_url": "https://www.literalai.com/",
+          "page_title": "Internal Error ()",
+          "accessible": false,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": "保留综述给出的官方链接；官网及文档入口本次读取失败。"
+      },
+      "notes": []
+    },
+    {
+      "number": 63,
+      "url": "https://www.comet.com/site/products/opik/",
+      "primary_title": "Open-Source AI Observability Platform | Opik by Comet",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://www.comet.com/site/products/opik/",
+          "resolved_url": "https://www.comet.com/site/products/opik/",
+          "page_title": "Open-Source AI Observability Platform | Opik by Comet",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 64,
+      "url": "https://github.com/Arize-ai/openinference",
+      "primary_title": "GitHub - Arize-ai/openinference: OpenTelemetry Instrumentation for AI Observability · GitHub",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://github.com/Arize-ai/openinference",
+          "resolved_url": "https://github.com/Arize-ai/openinference",
+          "page_title": "GitHub - Arize-ai/openinference: OpenTelemetry Instrumentation for AI Observability · GitHub",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 65,
+      "url": "https://www.trulens.org/",
+      "primary_title": "TruLens: Evals and Tracing for AI Agents",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://www.trulens.org/",
+          "resolved_url": "https://www.trulens.org/",
+          "page_title": "TruLens: Evals and Tracing for AI Agents",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 66,
+      "url": "https://www.honeyhive.ai/",
+      "primary_title": "HoneyHive - Agent Observability & Evaluation Platform",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://www.honeyhive.ai/",
+          "resolved_url": "https://www.honeyhive.ai/",
+          "page_title": "HoneyHive - Agent Observability & Evaluation Platform",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 67,
+      "url": "https://www.promptlayer.com/",
+      "primary_title": "PromptLayer — Prompt Management, Evals & Observability",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://www.promptlayer.com/",
+          "resolved_url": "https://www.promptlayer.com/",
+          "page_title": "PromptLayer — Prompt Management, Evals & Observability",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 68,
+      "url": "https://www.agentops.ai/",
+      "primary_title": "AgentOps",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://www.agentops.ai/",
+          "resolved_url": "https://www.agentops.ai/",
+          "page_title": "AgentOps",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 69,
+      "url": "https://github.com/confident-ai/deepeval",
+      "primary_title": "GitHub - confident-ai/deepeval: The LLM Evaluation Framework · GitHub",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://github.com/confident-ai/deepeval",
+          "resolved_url": "https://github.com/confident-ai/deepeval",
+          "page_title": "GitHub - confident-ai/deepeval: The LLM Evaluation Framework · GitHub",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 70,
+      "url": "https://www.langchain.com/langsmith-platform",
+      "primary_title": "LangSmith: AI Agent & LLM Observability and Evals Platform",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://www.langchain.com/langsmith-platform",
+          "resolved_url": "https://www.langchain.com/langsmith-platform",
+          "page_title": "LangSmith: AI Agent & LLM Observability and Evals Platform",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 71,
+      "url": "https://arxiv.org/abs/1808.00590",
+      "primary_title": "MLCapsule: Guarded Offline Deployment of Machine Learning as a Service",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/1808.00590",
+          "resolved_url": "https://arxiv.org/abs/1808.00590",
+          "page_title": "MLCapsule: Guarded Offline Deployment of Machine Learning as a Service",
+          "accessible": true,
+          "authors_observed": [
+            "Lucjan Hanzlik",
+            "Yang Zhang",
+            "Kathrin Grosse",
+            "Ahmed Salem",
+            "Max Augustin",
+            "Michael Backes",
+            "Mario Fritz"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 72,
+      "url": "https://arxiv.org/abs/2311.17911",
+      "primary_title": "OPERA: Alleviating Hallucination in Multi-Modal Large Language Models via Over-Trust Penalty and Retrospection-Allocation",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2311.17911",
+          "resolved_url": "https://arxiv.org/abs/2311.17911",
+          "page_title": "OPERA: Alleviating Hallucination in Multi-Modal Large Language Models via Over-Trust Penalty and Retrospection-Allocation",
+          "accessible": true,
+          "authors_observed": [
+            "Qidong Huang",
+            "Xiaoyi Dong",
+            "Pan Zhang",
+            "Bin Wang",
+            "Conghui He",
+            "Jiaqi Wang",
+            "Dahua Lin",
+            "Weiming Zhang",
+            "Nenghai Yu"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 73,
+      "url": "https://arxiv.org/abs/2304.13734",
+      "primary_title": "The Internal State of an LLM Knows When It's Lying",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2304.13734",
+          "resolved_url": "https://arxiv.org/abs/2304.13734",
+          "page_title": "The Internal State of an LLM Knows When It's Lying",
+          "accessible": true,
+          "authors_observed": [
+            "Amos Azaria",
+            "Tom Mitchell"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 74,
+      "url": "https://arxiv.org/abs/2602.13723",
+      "primary_title": "Compiling Large Multi-Modal Requirement Documents into Runnable Software Systems: From an Agentic Test-Driven Perspective",
+      "verification": {
+        "status": "primary_source_verified_title_variant",
+        "label_zh": "已核对对应来源，标题/版本有差异",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2602.13723",
+          "resolved_url": "https://arxiv.org/abs/2602.13723",
+          "page_title": "Compiling Large Multi-Modal Requirement Documents into Runnable Software Systems: From an Agentic Test-Driven Perspective",
+          "accessible": true,
+          "authors_observed": [
+            "Weiyu Kong",
+            "Yun Lin",
+            "Xiwen Teoh",
+            "Duc-Minh Nguyen",
+            "Ruofei Ren",
+            "Jiaxin Chang",
+            "Haoxu Hu",
+            "Haoyu Chen"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "同一 arXiv ID 的当前标题为 Compiling Large Multi-Modal Requirement Documents into Runnable Software Systems: From an Agentic Test-Driven Perspective，原文书目标题含 ARC。"
+      ]
+    },
+    {
+      "number": 75,
+      "url": "https://arxiv.org/abs/2602.11724",
+      "primary_title": "WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2602.11724",
+          "resolved_url": "https://arxiv.org/abs/2602.11724",
+          "page_title": "WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized GUI Elements",
+          "accessible": true,
+          "authors_observed": [
+            "Xiwen Teoh",
+            "Yun Lin",
+            "Duc-Minh Nguyen",
+            "Ruofei Ren",
+            "Wenjie Zhang",
+            "Jin Song Dong"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 76,
+      "url": "https://arxiv.org/abs/2310.00754",
+      "primary_title": "Analyzing and Mitigating Object Hallucination in Large Vision-Language Models",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2310.00754",
+          "resolved_url": "https://arxiv.org/abs/2310.00754",
+          "page_title": "Analyzing and Mitigating Object Hallucination in Large Vision-Language Models",
+          "accessible": true,
+          "authors_observed": [
+            "Yiyang Zhou",
+            "Chenhang Cui",
+            "Jaehong Yoon",
+            "Linjun Zhang",
+            "Zhun Deng",
+            "Chelsea Finn",
+            "Mohit Bansal",
+            "Huaxiu Yao"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 77,
+      "url": "https://arxiv.org/abs/2306.10193",
+      "primary_title": "Conformal Language Modeling",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2306.10193",
+          "resolved_url": "https://arxiv.org/abs/2306.10193",
+          "page_title": "Conformal Language Modeling",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 78,
+      "url": "https://arxiv.org/abs/2305.14325",
+      "primary_title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2305.14325",
+          "resolved_url": "https://arxiv.org/abs/2305.14325",
+          "page_title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "综述年份为 2023，但 venue 为 Forty-first ICML（2024）；可能混用预印本年与会议年，均按原文保存，不静默统一。"
+      ]
+    },
+    {
+      "number": 79,
+      "url": "https://arxiv.org/abs/2305.13269",
+      "primary_title": "Chain-of-Knowledge: Grounding Large Language Models via Dynamic Knowledge Adapting over Heterogeneous Sources",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2305.13269",
+          "resolved_url": "https://arxiv.org/abs/2305.13269",
+          "page_title": "Chain-of-Knowledge: Grounding Large Language Models via Dynamic Knowledge Adapting over Heterogeneous Sources",
+          "accessible": true,
+          "authors_observed": [
+            "Xingxuan Li",
+            "Ruochen Zhao",
+            "Yew Ken Chia",
+            "Bosheng Ding",
+            "Shafiq Joty",
+            "Soujanya Poria",
+            "Lidong Bing"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 80,
+      "url": "https://arxiv.org/abs/2504.12757",
+      "primary_title": "MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2504.12757",
+          "resolved_url": "https://arxiv.org/abs/2504.12757",
+          "page_title": "MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System",
+          "accessible": true,
+          "authors_observed": [
+            "Sonu Kumar",
+            "Anubhav Girdhar",
+            "Ritesh Patil",
+            "Divyansh Tripathi"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 81,
+      "url": "https://arxiv.org/abs/2306.15595",
+      "primary_title": "Extending Context Window of Large Language Models via Positional Interpolation",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2306.15595",
+          "resolved_url": "https://arxiv.org/abs/2306.15595",
+          "page_title": "Extending Context Window of Large Language Models via Positional Interpolation",
+          "accessible": true,
+          "authors_observed": [
+            "Shouyuan Chen",
+            "Sherman Wong",
+            "Liangjian Chen",
+            "Yuandong Tian"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 82,
+      "url": "https://arxiv.org/abs/2406.02818",
+      "primary_title": "Chain of Agents: Large Language Models Collaborating on Long-Context Tasks",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2406.02818",
+          "resolved_url": "https://arxiv.org/abs/2406.02818",
+          "page_title": "Chain of Agents: Large Language Models Collaborating on Long-Context Tasks",
+          "accessible": true,
+          "authors_observed": [
+            "Yusen Zhang",
+            "Ruoxi Sun",
+            "Yanfei Chen",
+            "Tomas Pfister",
+            "Rui Zhang",
+            "Sercan Ö. Arik"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 83,
+      "url": "https://arxiv.org/abs/2408.15533",
+      "primary_title": "LRP4RAG: Detecting Hallucinations in Retrieval-Augmented Generation via Layer-wise Relevance Propagation",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2408.15533",
+          "resolved_url": "https://arxiv.org/abs/2408.15533",
+          "page_title": "LRP4RAG: Detecting Hallucinations in Retrieval-Augmented Generation via Layer-wise Relevance Propagation",
+          "accessible": true,
+          "authors_observed": [
+            "Haichuan Hu",
+            "Congqing He",
+            "Xiaochen Xie",
+            "Quanjun Zhang"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 84,
+      "url": "https://arxiv.org/abs/2505.19234",
+      "primary_title": "GUARDIAN: Safeguarding LLM Multi-Agent Collaborations with Temporal Graph Modeling",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2505.19234",
+          "resolved_url": "https://arxiv.org/abs/2505.19234",
+          "page_title": "GUARDIAN: Safeguarding LLM Multi-Agent Collaborations with Temporal Graph Modeling",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 85,
+      "url": "https://arxiv.org/abs/2604.24703",
+      "primary_title": "Defective Task Descriptions in LLM-Based Code Generation: Detection and Analysis",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2604.24703",
+          "resolved_url": "https://arxiv.org/abs/2604.24703",
+          "page_title": "Defective Task Descriptions in LLM-Based Code Generation: Detection and Analysis",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 86,
+      "url": "https://arxiv.org/abs/2502.13069",
+      "primary_title": "Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2502.13069",
+          "resolved_url": "https://arxiv.org/abs/2502.13069",
+          "page_title": "Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 87,
+      "url": "https://arxiv.org/abs/2405.12063",
+      "primary_title": "CLAMBER: A Benchmark of Identifying and Clarifying Ambiguous Information Needs in Large Language Models",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2405.12063",
+          "resolved_url": "https://arxiv.org/abs/2405.12063",
+          "page_title": "CLAMBER: A Benchmark of Identifying and Clarifying Ambiguous Information Needs in Large Language Models",
+          "accessible": true,
+          "authors_observed": [
+            "Tong Zhang",
+            "Peixin Qin",
+            "Yang Deng",
+            "Chen Huang",
+            "Wenqiang Lei",
+            "Junhong Liu",
+            "Dingnan Jin",
+            "Hongru Liang",
+            "Tat-Seng Chua"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 88,
+      "url": "https://arxiv.org/abs/2603.26233",
+      "primary_title": "Ask or Assume? Uncertainty-Aware Clarification-Seeking in Coding Agents",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2603.26233",
+          "resolved_url": "https://arxiv.org/abs/2603.26233",
+          "page_title": "Ask or Assume? Uncertainty-Aware Clarification-Seeking in Coding Agents",
+          "accessible": true,
+          "authors_observed": [
+            "Nicholas Edwards",
+            "Sebastian Schuster"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 89,
+      "url": "https://arxiv.org/abs/2302.09664",
+      "primary_title": "Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2302.09664",
+          "resolved_url": "https://arxiv.org/abs/2302.09664",
+          "page_title": "Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation",
+          "accessible": true,
+          "authors_observed": [
+            "Lorenz Kuhn",
+            "Yarin Gal",
+            "Sebastian Farquhar"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 90,
+      "url": "https://arxiv.org/abs/2303.08896",
+      "primary_title": "SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2303.08896",
+          "resolved_url": "https://arxiv.org/abs/2303.08896",
+          "page_title": "SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models",
+          "accessible": true,
+          "authors_observed": [
+            "Potsawee Manakul",
+            "Adian Liusie",
+            "Mark J. F. Gales"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 91,
+      "url": "https://arxiv.org/abs/2402.06529",
+      "primary_title": "Introspective Planning: Aligning Robots' Uncertainty with Inherent Task Ambiguity",
+      "verification": {
+        "status": "primary_source_verified_title_variant",
+        "label_zh": "已核对对应来源，标题/版本有差异",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2402.06529",
+          "resolved_url": "https://arxiv.org/abs/2402.06529",
+          "page_title": "Introspective Planning: Aligning Robots' Uncertainty with Inherent Task Ambiguity",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "综述标题为 Introspective Planning: Guiding Language-Enabled Agents to Refine Their Own Uncertainty；当前 arXiv 标题为 Introspective Planning: Aligning Robots' Uncertainty with Inherent Task Ambiguity，已核对同作者对应工作。"
+      ]
+    },
+    {
+      "number": 92,
+      "url": "https://arxiv.org/abs/2304.08244",
+      "primary_title": "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2304.08244",
+          "resolved_url": "https://arxiv.org/abs/2304.08244",
+          "page_title": "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs",
+          "accessible": true,
+          "authors_observed": [
+            "Minghao Li",
+            "Yingxiu Zhao",
+            "Bowen Yu",
+            "Feifan Song",
+            "Hangyu Li",
+            "Haiyang Yu",
+            "Zhoujun Li",
+            "Fei Huang",
+            "Yongbin Li"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 93,
+      "url": "https://arxiv.org/abs/2303.11366",
+      "primary_title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2303.11366",
+          "resolved_url": "https://arxiv.org/abs/2303.11366",
+          "page_title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 94,
+      "url": "https://arxiv.org/abs/2402.01030",
+      "primary_title": "Executable Code Actions Elicit Better LLM Agents",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2402.01030",
+          "resolved_url": "https://arxiv.org/abs/2402.01030",
+          "page_title": "Executable Code Actions Elicit Better LLM Agents",
+          "accessible": true,
+          "authors_observed": [
+            "Xingyao Wang",
+            "Yangyi Chen",
+            "Lifan Yuan",
+            "Yizhe Zhang",
+            "Yunzhu Li",
+            "Hao Peng",
+            "Heng Ji"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 95,
+      "url": "https://arxiv.org/abs/2410.11782",
+      "primary_title": "G-Designer: Architecting Multi-agent Communication Topologies via Graph Neural Networks",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2410.11782",
+          "resolved_url": "https://arxiv.org/abs/2410.11782",
+          "page_title": "G-Designer: Architecting Multi-agent Communication Topologies via Graph Neural Networks",
+          "accessible": true,
+          "authors_observed": [
+            "Guibin Zhang",
+            "Yanwei Yue",
+            "Xiangguo Sun",
+            "Guancheng Wan",
+            "Miao Yu",
+            "Junfeng Fang",
+            "Kun Wang",
+            "Tianlong Chen",
+            "Dawei Cheng"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 96,
+      "url": "https://arxiv.org/abs/2509.13782",
+      "primary_title": "Who is Introducing the Failure? Automatically Attributing Failures of Multi-Agent Systems via Spectrum Analysis",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2509.13782",
+          "resolved_url": "https://arxiv.org/abs/2509.13782",
+          "page_title": "Who is Introducing the Failure? Automatically Attributing Failures of Multi-Agent Systems via Spectrum Analysis",
+          "accessible": true,
+          "authors_observed": [
+            "Yu Ge",
+            "Linna Xie",
+            "Zhong Li",
+            "Yu Pei",
+            "Tian Zhang"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 97,
+      "url": "https://arxiv.org/abs/2510.10581",
+      "primary_title": "GraphTracer: Graph-Guided Failure Tracing in LLM Agents for Robust Multi-Turn Deep Search",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2510.10581",
+          "resolved_url": "https://arxiv.org/abs/2510.10581",
+          "page_title": "GraphTracer: Graph-Guided Failure Tracing in LLM Agents for Robust Multi-Turn Deep Search",
+          "accessible": true,
+          "authors_observed": [
+            "Heng Zhang",
+            "Yuling Shi",
+            "Xiaodong Gu",
+            "Haochen You",
+            "Zijian Zhang",
+            "Lubin Gan",
+            "Yilei Yuan",
+            "Jin Huang"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 98,
+      "url": "https://arxiv.org/abs/2509.03312",
+      "primary_title": "AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2509.03312",
+          "resolved_url": "https://arxiv.org/abs/2509.03312",
+          "page_title": "AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 99,
+      "url": "https://arxiv.org/abs/2509.23735",
+      "primary_title": "Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows",
+      "verification": {
+        "status": "primary_source_verified_title_variant",
+        "label_zh": "已核对对应来源，标题/版本有差异",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2509.23735",
+          "resolved_url": "https://arxiv.org/abs/2509.23735",
+          "page_title": "Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "原文题为 Diagnosing Failure Root Causes in Platform-Orchestrated Agentic Systems: Dataset, Taxonomy, and Benchmark；该 arXiv ID 当前标题已更新为 Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows。"
+      ]
+    },
+    {
+      "number": 100,
+      "url": "https://arxiv.org/abs/2509.08682",
+      "primary_title": "Automatic Failure Attribution and Critical Step Prediction Method for Multi-Agent Systems Based on Causal Inference",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2509.08682",
+          "resolved_url": "https://arxiv.org/abs/2509.08682",
+          "page_title": "Automatic Failure Attribution and Critical Step Prediction Method for Multi-Agent Systems Based on Causal Inference",
+          "accessible": true,
+          "authors_observed": [
+            "Guoqing Ma",
+            "Jia Zhu",
+            "Hanghui Guo",
+            "Weijie Shi",
+            "Jiawei Shen",
+            "Jingjiang Liu",
+            "Yidan Liang"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 101,
+      "url": "https://arxiv.org/abs/2606.03467",
+      "primary_title": "StepFinder: A Temporal Semantic Framework for Failure Attribution in Multi-Agent Systems",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2606.03467",
+          "resolved_url": "https://arxiv.org/abs/2606.03467",
+          "page_title": "StepFinder: A Temporal Semantic Framework for Failure Attribution in Multi-Agent Systems",
+          "accessible": true,
+          "authors_observed": [
+            "Taiyu Zhu",
+            "Yifan Wu",
+            "Weilin Jin",
+            "Ying Li",
+            "Gang Huang"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 102,
+      "url": "https://arxiv.org/abs/2509.25370",
+      "primary_title": "Where LLM Agents Fail and How They can Learn From Failures",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2509.25370",
+          "resolved_url": "https://arxiv.org/abs/2509.25370",
+          "page_title": "Where LLM Agents Fail and How They can Learn From Failures",
+          "accessible": true,
+          "authors_observed": [
+            "Kunlun Zhu",
+            "Zijia Liu",
+            "Bingxuan Li",
+            "Muxin Tian",
+            "Yingxuan Yang",
+            "Jiaxun Zhang",
+            "Pengrui Han",
+            "Qipeng Xie",
+            "Fuyang Cui",
+            "Weijia Zhang",
+            "Xiaoteng Ma",
+            "Xiaodong Yu",
+            "Gowtham Ramesh",
+            "Jialian Wu",
+            "Zicheng Liu",
+            "Pan Lu",
+            "James Zou",
+            "Jiaxuan You"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 103,
+      "url": "https://arxiv.org/abs/2405.15793",
+      "primary_title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2405.15793",
+          "resolved_url": "https://arxiv.org/abs/2405.15793",
+          "page_title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+          "accessible": true,
+          "authors_observed": [
+            "John Yang",
+            "Carlos E. Jimenez",
+            "Alexander Wettig",
+            "Kilian Lieret",
+            "Shunyu Yao",
+            "Karthik Narasimhan",
+            "Ofir Press"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 104,
+      "url": "https://arxiv.org/abs/2201.11903",
+      "primary_title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2201.11903",
+          "resolved_url": "https://arxiv.org/abs/2201.11903",
+          "page_title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "与 [16] 指向同一篇论文；原文作者字段/来源格式不同，因此保留原始两个条目及其各自引用位置。"
+      ]
+    },
+    {
+      "number": 105,
+      "url": "https://arxiv.org/abs/2305.10601",
+      "primary_title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2305.10601",
+          "resolved_url": "https://arxiv.org/abs/2305.10601",
+          "page_title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 106,
+      "url": "https://arxiv.org/abs/2302.04761",
+      "primary_title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2302.04761",
+          "resolved_url": "https://arxiv.org/abs/2302.04761",
+          "page_title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+          "accessible": true,
+          "authors_observed": [
+            "Timo Schick",
+            "Jane Dwivedi-Yu",
+            "Roberto Dessì",
+            "Roberta Raileanu",
+            "Maria Lomeli",
+            "Luke Zettlemoyer",
+            "Nicola Cancedda",
+            "Thomas Scialom"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 107,
+      "url": "https://arxiv.org/abs/2303.17651",
+      "primary_title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2303.17651",
+          "resolved_url": "https://arxiv.org/abs/2303.17651",
+          "page_title": "Self-Refine: Iterative Refinement with Self-Feedback",
+          "accessible": true,
+          "authors_observed": [
+            "Aman Madaan",
+            "Niket Tandon",
+            "Prakhar Gupta",
+            "Skyler Hallinan",
+            "Luyu Gao",
+            "Sarah Wiegreffe",
+            "Uri Alon",
+            "Nouha Dziri",
+            "Shrimai Prabhumoye",
+            "Yiming Yang",
+            "Shashank Gupta",
+            "Bodhisattwa Prasad Majumder",
+            "Katherine Hermann",
+            "Sean Welleck",
+            "Amir Yazdanbakhsh",
+            "Peter Clark"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 108,
+      "url": "https://arxiv.org/abs/2503.18666",
+      "primary_title": "AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2503.18666",
+          "resolved_url": "https://arxiv.org/abs/2503.18666",
+          "page_title": "AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents",
+          "accessible": true,
+          "authors_observed": [
+            "Haoyu Wang",
+            "Christopher M. Poskitt",
+            "Jun Sun"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 109,
+      "url": "https://conf.researchr.org/details/icse-2026/icse-2026-research-track/319/Comfrey-Mitigating-Integration-Failures-in-LLM-enabled-Software-at-Run-Time",
+      "primary_title": "Comfrey: Mitigating Integration Failures in LLM-enabled Software at Run-Time (ICSE 2026 - Research Track) - ICSE 2026",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://conf.researchr.org/details/icse-2026/icse-2026-research-track/319/Comfrey-Mitigating-Integration-Failures-in-LLM-enabled-Software-at-Run-Time",
+          "resolved_url": "https://conf.researchr.org/details/icse-2026/icse-2026-research-track/319/Comfrey-Mitigating-Integration-Failures-in-LLM-enabled-Software-at-Run-Time",
+          "page_title": "Comfrey: Mitigating Integration Failures in LLM-enabled Software at Run-Time (ICSE 2026 - Research Track) - ICSE 2026",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 110,
+      "url": "https://arxiv.org/abs/2203.11171",
+      "primary_title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2203.11171",
+          "resolved_url": "https://arxiv.org/abs/2203.11171",
+          "page_title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 111,
+      "url": "https://docs.langchain.com/oss/python/langgraph/persistence",
+      "primary_title": "Persistence - Docs by LangChain",
+      "verification": {
+        "status": "primary_identity_verified",
+        "label_zh": "已核对官方页面/项目身份",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://docs.langchain.com/oss/python/langgraph/persistence",
+          "resolved_url": "https://docs.langchain.com/oss/python/langgraph/persistence",
+          "page_title": "Persistence - Docs by LangChain",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 112,
+      "url": "https://arxiv.org/abs/2305.16291",
+      "primary_title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2305.16291",
+          "resolved_url": "https://arxiv.org/abs/2305.16291",
+          "page_title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+          "accessible": true,
+          "authors_observed": [
+            "Guanzhi Wang",
+            "Yuqi Xie",
+            "Yunfan Jiang",
+            "Ajay Mandlekar",
+            "Chaowei Xiao",
+            "Yuke Zhu",
+            "Linxi Fan",
+            "Anima Anandkumar"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 113,
+      "url": "https://arxiv.org/abs/2010.15980",
+      "primary_title": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2010.15980",
+          "resolved_url": "https://arxiv.org/abs/2010.15980",
+          "page_title": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts",
+          "accessible": true,
+          "authors_observed": [
+            "Taylor Shin",
+            "Yasaman Razeghi",
+            "Robert L. Logan IV",
+            "Eric Wallace",
+            "Sameer Singh"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 114,
+      "url": "https://arxiv.org/abs/2110.07602",
+      "primary_title": "P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks",
+      "verification": {
+        "status": "primary_source_verified_title_variant",
+        "label_zh": "已核对对应来源，标题/版本有差异",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2110.07602",
+          "resolved_url": "https://arxiv.org/abs/2110.07602",
+          "page_title": "P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks",
+          "accessible": true,
+          "authors_observed": [
+            "Xiao Liu",
+            "Kaixuan Ji",
+            "Yicheng Fu",
+            "Weng Lam Tam",
+            "Zhengxiao Du",
+            "Zhilin Yang",
+            "Jie Tang"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "原文简称 P-tuning；当前对应论文标题明确为 P-Tuning v2，阅读时避免与早期 P-Tuning 混淆。"
+      ]
+    },
+    {
+      "number": 115,
+      "url": "https://arxiv.org/abs/2309.05173",
+      "primary_title": "DePT: Decomposed Prompt Tuning for Parameter-Efficient Fine-tuning",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2309.05173",
+          "resolved_url": "https://arxiv.org/abs/2309.05173",
+          "page_title": "DePT: Decomposed Prompt Tuning for Parameter-Efficient Fine-tuning",
+          "accessible": true,
+          "authors_observed": [
+            "Zhengxiang Shi",
+            "Aldo Lipani"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 116,
+      "url": "https://arxiv.org/abs/2309.16797",
+      "primary_title": "Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2309.16797",
+          "resolved_url": "https://arxiv.org/abs/2309.16797",
+          "page_title": "Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 117,
+      "url": "https://arxiv.org/abs/2503.13657",
+      "primary_title": "Why Do Multi-Agent LLM Systems Fail?",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2503.13657",
+          "resolved_url": "https://arxiv.org/abs/2503.13657",
+          "page_title": "Why Do Multi-Agent LLM Systems Fail?",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 118,
+      "url": "https://arxiv.org/abs/2505.08638",
+      "primary_title": "TRAIL: Trace Reasoning and Agentic Issue Localization",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2505.08638",
+          "resolved_url": "https://arxiv.org/abs/2505.08638",
+          "page_title": "TRAIL: Trace Reasoning and Agentic Issue Localization",
+          "accessible": true,
+          "authors_observed": [
+            "Darshan Deshpande",
+            "Varun Gangal",
+            "Hersh Mehta",
+            "Jitin Krishnan",
+            "Anand Kannappan",
+            "Rebecca Qian"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 119,
+      "url": "https://arxiv.org/abs/2509.14295",
+      "primary_title": "Aegis: Automated Error Generation and Attribution for Multi-Agent Systems",
+      "verification": {
+        "status": "primary_source_verified_title_variant",
+        "label_zh": "已核对对应来源，标题/版本有差异",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2509.14295",
+          "resolved_url": "https://arxiv.org/abs/2509.14295",
+          "page_title": "Aegis: Automated Error Generation and Attribution for Multi-Agent Systems",
+          "accessible": true,
+          "authors_observed": [
+            "Fanqi Kong",
+            "Ruijie Zhang",
+            "Huaxiao Yin",
+            "Guibin Zhang",
+            "Xiaofei Zhang",
+            "Ziang Chen",
+            "Zhaowei Zhang",
+            "Xiaoyuan Zhang",
+            "Song-Chun Zhu",
+            "Xue Feng"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "原文书目省略完整 arXiv ID，已定位 2509.14295；早期题名以 Identification 结尾，当前 arXiv 标题以 Attribution 结尾。"
+      ]
+    },
+    {
+      "number": 120,
+      "url": "https://arxiv.org/abs/2603.25001",
+      "primary_title": "Rethinking Failure Attribution in Multi-Agent Systems: A Multi-Perspective Benchmark and Evaluation",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2603.25001",
+          "resolved_url": "https://arxiv.org/abs/2603.25001",
+          "page_title": "Rethinking Failure Attribution in Multi-Agent Systems: A Multi-Perspective Benchmark and Evaluation",
+          "accessible": true,
+          "authors_observed": [
+            "Yeonjun In",
+            "Mehrab Tanjim",
+            "Jayakumar Subramanian",
+            "Sungchul Kim",
+            "Uttaran Bhattacharya",
+            "Wonjoong Kim",
+            "Sangwu Park",
+            "Somdeb Sarkhel",
+            "Chanyoung Park"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 121,
+      "url": "https://arxiv.org/abs/2608.15242",
+      "primary_title": "LongRCA Bench: Diagnosing Responsible Roles and Root Causes in Long-Horizon Agent Failures",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2608.15242",
+          "resolved_url": "https://arxiv.org/abs/2608.15242",
+          "page_title": "LongRCA Bench: Diagnosing Responsible Roles and Root Causes in Long-Horizon Agent Failures",
+          "accessible": true,
+          "authors_observed": [
+            "Yunfei Zhang",
+            "Boyu Feng",
+            "Changhua Pei",
+            "Zexin Wang",
+            "Zhihuang Peng",
+            "Xinlong Liu",
+            "Hengyue Jiang",
+            "Difeng Ma",
+            "Jiayi Zhang",
+            "Yongzhou Yao",
+            "Yanan Zhao",
+            "Fei Sun",
+            "Yintong Huo",
+            "Zhaoyang Liu",
+            "Jingjing Li",
+            "Gaogang Xie",
+            "Dan Pei"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 122,
+      "url": "https://arxiv.org/abs/2311.12983",
+      "primary_title": "GAIA: a benchmark for General AI Assistants",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2311.12983",
+          "resolved_url": "https://arxiv.org/abs/2311.12983",
+          "page_title": "GAIA: a benchmark for General AI Assistants",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": [
+        "综述年份为 2023，但 venue 写 The Twelfth ICLR（2024）；是预印本与会议年份混用，字段按原文保留。"
+      ]
+    },
+    {
+      "number": 123,
+      "url": "https://arxiv.org/abs/2010.03768",
+      "primary_title": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2010.03768",
+          "resolved_url": "https://arxiv.org/abs/2010.03768",
+          "page_title": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
+          "accessible": true,
+          "authors_observed": null,
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 124,
+      "url": "https://arxiv.org/abs/2207.01206",
+      "primary_title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2207.01206",
+          "resolved_url": "https://arxiv.org/abs/2207.01206",
+          "page_title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+          "accessible": true,
+          "authors_observed": [
+            "Shunyu Yao",
+            "Howard Chen",
+            "John Yang",
+            "Karthik Narasimhan"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    },
+    {
+      "number": 125,
+      "url": "https://arxiv.org/abs/2603.10268",
+      "primary_title": "SpecOps: A Fully Automated AI Agent Testing Framework in Real-World GUI Environments",
+      "verification": {
+        "status": "primary_title_verified",
+        "label_zh": "已核对原始来源标题",
+        "checked_on": "2026-09-09",
+        "scope": "核对题名/对应来源身份；作者、年、卷期页码默认保留综述书目原值，未宣称全面交叉核验。",
+        "source": {
+          "source_url": "https://arxiv.org/abs/2603.10268",
+          "resolved_url": "https://arxiv.org/abs/2603.10268",
+          "page_title": "SpecOps: A Fully Automated AI Agent Testing Framework in Real-World GUI Environments",
+          "accessible": true,
+          "authors_observed": [
+            "Syed Yusuf Ahmed",
+            "Shiwei Feng",
+            "Chanwoo Bae",
+            "Calix Barrus Xiangyu Zhang"
+          ],
+          "checked_on": "2026-09-09",
+          "verification_method": "primary_page_open_via_web_tool",
+          "scope": "标题与来源身份；不代表全文精读或全部书目字段核准"
+        },
+        "note": null
+      },
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "arxiv_id": "2606.01581",
+  "version": "v2",
+  "title": "Agent System Operations: Categorization, Challenges, and Future Directions",
+  "version_date": "2026-09-06",
+  "first_submission_date": "2026-06-01",
+  "accessed_date": "2026-09-09",
+  "survey_search_cutoff": "2026-08",
+  "abs_url": "https://arxiv.org/abs/2606.01581v2",
+  "html_url": "https://arxiv.org/html/2606.01581v2",
+  "pdf_url": "https://arxiv.org/pdf/2606.01581v2",
+  "doi": "10.48550/arXiv.2606.01581",
+  "reference_entries_as_numbered": 125,
+  "pdf_pages": 19,
+  "detection_method_rows": 29,
+  "source_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "redistributes_full_paper": false,
+  "original_artifacts_sha256": {
+    "html": "331dfdc65bcdc3d1c45e15ae349a2596ce6dc766c533e203d16cccd8bc8fa864",
+    "pdf": "3eaffe2a38d7da80a1deb92d43c28f285d3078658dc9797c5ad86d10dbe76c4e"
+  },
+  "scope_note_zh": "按综述分类的论文、算法、数据集与工具资源清单；来源核验沿用2026-09-09记录，本次仅本地重构。",
+  "sections": {
+    "S1": "https://arxiv.org/html/2606.01581v2#S1",
+    "S2": "https://arxiv.org/html/2606.01581v2#S2",
+    "S3": "https://arxiv.org/html/2606.01581v2#S3",
+    "S4": "https://arxiv.org/html/2606.01581v2#S4",
+    "S5": "https://arxiv.org/html/2606.01581v2#S5",
+    "S6": "https://arxiv.org/html/2606.01581v2#S6",
+    "S7": "https://arxiv.org/html/2606.01581v2#S7",
+    "S8": "https://arxiv.org/html/2606.01581v2#S8",
+    "S9": "https://arxiv.org/html/2606.01581v2#S9",
+    "S10": "https://arxiv.org/html/2606.01581v2#S10",
+    "S11": "https://arxiv.org/html/2606.01581v2#S11"
+  },
+  "repository_url": "https://github.com/Uni-WangZexin/AgentOps",
+  "author_metadata_note_zh": "2026-09-09的arXiv摘要页列13位作者；v2 PDF列14位（含Jianhui Li）。本仓库作者列表/CFF/BibTeX按v2 PDF记录，保留差异。",
+  "catalog_updated_date": "2026-09-10"
+}
